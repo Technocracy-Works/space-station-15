@@ -26,6 +26,7 @@
   "item.spacestation.rod": "Rod",
   "item.spacestation.plastic": "Plastic",
   "item.spacestation.plastic_knife": "Plastic Knife",
+  "item.spacestation.plasma": "Plasma ",
   "item.spacestation.id_card": "ID Card",
   "itemGroup.spacestation.content": "Space Station 15"
 }

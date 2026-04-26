@@ -70,6 +70,7 @@ public final class ModItems {
 
     public static final Item BANANIUM_ORE = register("bananium_ore");
     public static final Item PLASMA_ORE = register("plasma_ore");
+    public static final Item PLASMA = register("plasma");
     public static final Item FLOUR = register("flour");
     public static final Item BUTTER = register("butter");
     public static final Item BUTTER_SLICE = register("butter_slice");

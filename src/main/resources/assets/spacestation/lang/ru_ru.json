@@ -26,6 +26,7 @@
   "item.spacestation.rod": "Стержень",
   "item.spacestation.plastic": "Пластик",
   "item.spacestation.plastic_knife": "Пластиковый Ножик",
+  "item.spacestation.plasma": "Плазма",
   "item.spacestation.id_card": "Айди Карточка",
   "itemGroup.spacestation.content": "Космическая Станция 15"
 }
