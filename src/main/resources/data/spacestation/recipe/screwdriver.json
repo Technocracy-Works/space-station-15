@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    " I ",
+    " P "
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "P": { "item": "spacestation:plastic" }
+  },
+  "result": {
+    "id": "spacestation:screwdriver",
+    "count": 1
+  }
+}

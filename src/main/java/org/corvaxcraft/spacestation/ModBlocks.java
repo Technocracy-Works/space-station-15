@@ -42,14 +42,24 @@ public final class ModBlocks {
 
     public static final Block WALL_GIRDER = register(
             "wall_girder",
-            Block::new,
+            AssemblyBlock::new,  // <-- Кастомный класс чтоб работали крафты, НЕ ИЗМЕНЯТЬ!!!
             AbstractBlock.Settings.create()
                     .strength(1.5f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.CHAIN)
                     .nonOpaque(),
             true
+    );
 
+    public static final Block WALL_GIRDER_REINFORCED = register(
+            "wall_girder_reinforced",
+            AssemblyBlock::new,  // <-- Кастомный класс чтоб работали крафты, НЕ ИЗМЕНЯТЬ!!!
+            AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.CHAIN)
+                    .nonOpaque(),
+            true
     );
 
     public static final Block TOMATO_CROP = Registry.register(
@@ -71,9 +81,18 @@ public final class ModBlocks {
 
     public static final Block STEEL_WALL = register(
             "steel_wall",
-            Block::new,
+            AssemblyBlock::new,
             AbstractBlock.Settings.create()
                     .strength(1.5f, 6.0f)
+                    .requiresTool(),
+            true
+    );
+
+    public static final Block STEEL_WALL_REINFORCED = register(
+            "steel_wall_reinforced",
+            AssemblyBlock::new,
+            AbstractBlock.Settings.create()
+                    .strength(4f, 12.0f)
                     .requiresTool(),
             true
     );
@@ -91,7 +110,20 @@ public final class ModBlocks {
     private ModBlocks() {}
 
     public static void register() {
-        // См. комментарий в ModItems
+        // Рецепты для крафта ингейм
+        // Без инструментов — только сборка, без разбора
+        AssemblyBlock.registerUpgrade(WALL_GIRDER, ModItems.STEEL, STEEL_WALL, 2, 0.4f, 1.2f, ModItems.CROWBAR);
+        AssemblyBlock.registerUpgrade(WALL_GIRDER_REINFORCED, ModItems.PLASTEEL, STEEL_WALL_REINFORCED, 2, 0.4f, 1.2f, ModItems.CROWBAR);
+        AssemblyBlock.registerUpgrade(WALL_GIRDER, ModItems.ROD, WALL_GIRDER_REINFORCED, 4, 0.4f, 1.2f, ModItems.SCREWDRIVER);
+
+        // Несколько инструментов для разбора:
+        // AssemblyBlock.registerUpgrade(WALL_GIRDER, ModItems.STEEL, STEEL_WALL, 2, ModItems.CROWBAR, ModItems.CROWBAR2);
+
+        // Без разбора вообще:
+        // AssemblyBlock.registerUpgrade(WALL_GIRDER, ModItems.TELECRYSTAL, TELECRYSTAL_BLOCK, 9);
+
+        AssemblyBlock.registerUpgrade(WALL_GIRDER, ModItems.TELECRYSTAL, TELECRYSTAL_BLOCK, 9,  0.4f, 1.2f);
+        // Смотреть Комментарий в МодИтемс.жава
     }
 
     private static <T extends Block> T register(

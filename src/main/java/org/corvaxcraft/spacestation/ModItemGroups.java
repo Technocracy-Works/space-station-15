@@ -20,6 +20,8 @@ public final class ModItemGroups {
                         entries.add(ModItems.BANANIUM_ORE);
                         entries.add(ModItems.BUTTER);
                         entries.add(ModItems.BUTTER_SLICE);
+                        entries.add(ModItems.CROWBAR);
+                        entries.add(ModItems.SCREWDRIVER);
                         entries.add(ModItems.CROISSANT);
                         entries.add(ModItems.CROISSANT_RAW);
                         entries.add(ModItems.CHEESE_WEDGE);
@@ -40,12 +42,15 @@ public final class ModItemGroups {
                         entries.add(ModBlocks.BANANIUM_ORE_BLOCK.asItem());
                         entries.add(ModBlocks.PLASMA_ORE_BLOCK.asItem());
                         entries.add(ModBlocks.WALL_GIRDER.asItem());
+                        entries.add(ModBlocks.WALL_GIRDER_REINFORCED.asItem());
                         entries.add(ModBlocks.STEEL_TILE.asItem());
                         entries.add(ModBlocks.STEEL_WALL.asItem());
+                        entries.add(ModBlocks.STEEL_WALL_REINFORCED.asItem());
                         entries.add(ModBlocks.URANIUM_ORE_BLOCK.asItem());
                         entries.add(ModItems.URANIUM_ORE);
                         entries.add(ModItems.STEEL_ORE);
                         entries.add(ModItems.STEEL);
+                        entries.add(ModItems.PLASTEEL);
                         entries.add(ModItems.ROD);
                         entries.add(ModItems.PLASTIC);
                         entries.add(ModItems.PLASTIC_KNIFE);
@@ -57,6 +62,7 @@ public final class ModItemGroups {
                         entries.add(ModItems.PIZZA_MUSHROOM);
                         entries.add(ModItems.PIZZA_MUSHROOM_RAW);
                         entries.add(ModItems.PIZZA_MUSHROOM_SLICE);
+                        entries.add(ModItems.WRENCH);
                         entries.add(ModItems.ID_CARD);
                     })
                     .build()

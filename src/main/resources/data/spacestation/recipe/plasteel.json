@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:coal" },
+    { "item": "spacestation:steel" },
+    { "item": "spacestation:steel" },
+    { "item": "spacestation:plasma" }
+  ],
+  "result": {
+    "id": "spacestation:plasteel",
+    "count": 1
+  }
+}

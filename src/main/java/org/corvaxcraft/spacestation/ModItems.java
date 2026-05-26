@@ -86,6 +86,33 @@ public final class ModItems {
             ))
     );
 
+    public static final Item CROWBAR = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "crowbar"),
+            new Item(new Item.Settings()
+                    .maxCount(1)
+                    .maxDamage(100) // вот и вся прочность
+            )
+    );
+
+    public static final Item SCREWDRIVER = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "screwdriver"),
+            new Item(new Item.Settings()
+                    .maxCount(1)
+                    .maxDamage(100)
+            )
+    );
+
+    public static final Item WRENCH = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "wrench"),
+            new Item(new Item.Settings()
+                    .maxCount(1)
+                    .maxDamage(100)
+            )
+    );
+
     public static final Item SAUSAGE_BREAD = Registry.register(
             Registries.ITEM,
             Identifier.of(SpaceStation.MOD_ID, "sausage_bread"),
@@ -220,6 +247,7 @@ public final class ModItems {
     public static final Item STEEL_ORE = register("steel_ore");
     public static final Item URANIUM_ORE = register("uranium_ore");
     public static final Item STEEL = register("steel");
+    public static final Item PLASTEEL = register("plasteel");
     public static final Item ROD = register("rod");
     public static final Item PLASTIC = register("plastic");
 
