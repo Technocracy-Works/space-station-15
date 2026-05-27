@@ -1,0 +1,10 @@
+{
+  "reagents": {
+    "hydroxide": 0.5,
+    "benzene": 0.5
+  },
+  "results": {
+    "phenol": 1.0
+  },
+  "min_volume": 1.0
+}

@@ -1,4 +1,14 @@
 {
+  "gui.spacestation.chem_master.grinding": "Grinding",
+  "gui.spacestation.chem_master.flask": "Flask",
+  "gui.spacestation.chem_master.master_storage": "Chem Master",
+  "gui.spacestation.chem_master.container": "Container",
+
+  "chem.spacestation.carbon": "Carbon",
+  "chem.spacestation.calcium": "Calcium",
+  "chem.spacestation.bicaridine": "Bicaridine",
+  "chem.spacestation.uranium": "Uranium",
+
   "item.spacestation.bananium": "Bananium",
   "item.spacestation.bananium_ore": "Bananium Ore",
   "item.spacestation.butter": "Butter",

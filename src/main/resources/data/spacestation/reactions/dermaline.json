@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "kelotane": 0.33333,
+    "oxygen": 0.33333,
+    "phosphorus": 0.33333
+  },
+  "results": {
+    "dermaline": 1.0
+  },
+  "min_volume": 0.99999
+}

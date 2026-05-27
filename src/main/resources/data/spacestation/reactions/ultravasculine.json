@@ -1,0 +1,10 @@
+{
+  "reagents": {
+    "histamine": 1.0,
+    "plasma": 0.5
+  },
+  "results": {
+    "ultravasculine": 1.0
+  },
+  "min_volume": 1.5
+}

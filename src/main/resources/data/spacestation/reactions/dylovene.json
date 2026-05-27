@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "nitrogen": 0.33333,
+    "potassium": 0.33333,
+    "silicon": 0.33333
+  },
+  "results": {
+    "dylovene": 1.0
+  },
+  "min_volume": 0.99999
+}

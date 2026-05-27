@@ -1,0 +1,10 @@
+{
+  "reagents": {
+    "iron": 0.5,
+    "silicon": 0.5
+  },
+  "results": {
+    "iron_silicide": 1.0
+  },
+  "min_volume": 1.0
+}

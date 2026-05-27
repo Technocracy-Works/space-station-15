@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "dexalin": 0.33333,
+    "iron": 0.33333,
+    "carbon": 0.33333
+  },
+  "results": {
+    "dexalin_plus": 1.0
+  },
+  "min_volume": 0.99999
+}

@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "mercury": 1.0,
+    "oxygen": 1.0,
+    "water": 1.0
+  },
+  "results": {
+    "impedrezene": 1.0
+  },
+  "min_volume": 3.0
+}

@@ -1,4 +1,14 @@
 {
+  "gui.spacestation.chem_master.grinding": "Дробление",
+  "gui.spacestation.chem_master.flask": "Колба",
+  "gui.spacestation.chem_master.master_storage": "ХимМастер",
+  "gui.spacestation.chem_master.container": "Контейнер",
+
+  "chem.spacestation.carbon": "Углерод",
+  "chem.spacestation.calcium": "Кальций",
+  "chem.spacestation.bicaridine": "Бикаридин",
+  "chem.spacestation.uranium": "Уран",
+
   "item.spacestation.bananium": "Бананиум",
   "item.spacestation.bananium_ore": "Бананиумавая Руда",
   "item.spacestation.butter": "Масло",

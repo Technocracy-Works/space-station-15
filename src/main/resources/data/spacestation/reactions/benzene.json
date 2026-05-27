@@ -1,0 +1,10 @@
+{
+  "reagents": {
+    "hydrogen": 1.0,
+    "carbon": 1.0
+  },
+  "results": {
+    "benzene": 1.0
+  },
+  "min_volume": 2.0
+}

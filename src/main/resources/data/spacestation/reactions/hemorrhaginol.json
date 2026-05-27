@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "britvium": 1.0,
+    "warfarin": 1.0,
+    "plasma": 0.5
+  },
+  "results": {
+    "hemorrhaginol": 1.0
+  },
+  "min_volume": 2.5
+}

@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "cognizine": 0.25,
+    "doxarubixadone": 0.25,
+    "plasma": 0.5
+  },
+  "results": {
+    "opporozidone": 1.0
+  },
+  "min_volume": 1.0
+}

@@ -1,0 +1,12 @@
+{
+  "reagents": {
+    "ammonia": 0.25,
+    "table_salt": 0.25,
+    "carbon": 0.25,
+    "oxygen": 0.25
+  },
+  "results": {
+    "sodium_carbonate": 1.0
+  },
+  "min_volume": 1.0
+}

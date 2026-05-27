@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "acetone": 0.33333,
+    "carpotoxin": 0.33333,
+    "siderlac": 0.33333
+  },
+  "results": {
+    "cognizine": 1.0
+  },
+  "min_volume": 0.99999
+}

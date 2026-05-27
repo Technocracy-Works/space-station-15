@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "nitrogen": 0.33333,
+    "ammonia": 0.33333,
+    "potassium": 0.33333
+  },
+  "results": {
+    "ipecac": 1.0
+  },
+  "min_volume": 0.99999
+}

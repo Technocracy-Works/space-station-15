@@ -1,0 +1,10 @@
+{
+  "reagents": {
+    "hydrogen": 0.75,
+    "nitrogen": 0.25
+  },
+  "results": {
+    "ammonia": 1.0
+  },
+  "min_volume": 1.0
+}

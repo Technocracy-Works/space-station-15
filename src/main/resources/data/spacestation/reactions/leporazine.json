@@ -1,0 +1,10 @@
+{
+  "reagents": {
+    "copper": 0.5,
+    "iron_silicide": 0.5
+  },
+  "results": {
+    "leporazine": 1.0
+  },
+  "min_volume": 1.0
+}

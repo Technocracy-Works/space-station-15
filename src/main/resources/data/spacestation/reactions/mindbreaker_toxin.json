@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "silicon": 0.33333,
+    "hydrogen": 0.33333,
+    "dylovene": 0.33333
+  },
+  "results": {
+    "mindbreaker_toxin": 1.0
+  },
+  "min_volume": 0.99999
+}

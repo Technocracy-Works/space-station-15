@@ -1,0 +1,10 @@
+{
+  "reagents": {
+    "dylovene": 0.5,
+    "inaprovaline": 0.5
+  },
+  "results": {
+    "tricordrazine": 1.0
+  },
+  "min_volume": 1.0
+}

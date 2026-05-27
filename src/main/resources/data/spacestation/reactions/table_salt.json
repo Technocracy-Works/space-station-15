@@ -1,0 +1,10 @@
+{
+  "reagents": {
+    "sodium": 1.0,
+    "chlorine": 1.0
+  },
+  "results": {
+    "table_salt": 1.0
+  },
+  "min_volume": 2.0
+}

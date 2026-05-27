@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "dylovene": 0.33333,
+    "oxygen": 0.33333,
+    "carbon": 0.33333
+  },
+  "results": {
+    "ethylredoxrazine": 1.0
+  },
+  "min_volume": 0.99999
+}

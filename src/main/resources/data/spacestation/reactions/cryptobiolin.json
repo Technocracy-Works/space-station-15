@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "potassium": 0.33333,
+    "oxygen": 0.33333,
+    "sugar": 0.33333
+  },
+  "results": {
+    "cryptobiolin": 1.0
+  },
+  "min_volume": 0.99999
+}

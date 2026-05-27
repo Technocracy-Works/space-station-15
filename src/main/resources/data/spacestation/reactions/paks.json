@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "mindbreaker_toxin": 0.33333,
+    "synaptizine": 0.33333,
+    "water": 0.33333
+  },
+  "results": {
+    "paks": 1.0
+  },
+  "min_volume": 0.99999
+}

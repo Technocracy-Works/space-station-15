@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "dermaline": 0.33333,
+    "leporazine": 0.33333,
+    "carbon": 0.33333
+  },
+  "results": {
+    "pyrazine": 1.0
+  },
+  "min_volume": 0.99999
+}

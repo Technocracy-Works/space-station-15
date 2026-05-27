@@ -1,0 +1,10 @@
+{
+  "reagents": {
+    "benzene": 0.5,
+    "bicaridine": 0.5
+  },
+  "results": {
+    "lacerinol": 1.0
+  },
+  "min_volume": 1.0
+}

@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "kelotane": 0.33333,
+    "silicon": 0.33333,
+    "leporazine": 0.33333
+  },
+  "results": {
+    "insuzine": 1.0
+  },
+  "min_volume": 0.99999
+}

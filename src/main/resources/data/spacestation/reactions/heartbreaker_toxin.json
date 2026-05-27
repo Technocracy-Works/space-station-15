@@ -1,0 +1,10 @@
+{
+  "reagents": {
+    "dexalin_plus": 0.5,
+    "mindbreaker_toxin": 0.5
+  },
+  "results": {
+    "heartbreaker_toxin": 1.0
+  },
+  "min_volume": 1.0
+}

@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "sodium_carbonate": 0.33333,
+    "coffee": 0.33333,
+    "ethyloxyephedrine": 0.33333
+  },
+  "results": {
+    "diphenylmethylamine": 1.0
+  },
+  "min_volume": 0.99999
+}

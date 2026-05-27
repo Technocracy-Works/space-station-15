@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "radium": 0.33333,
+    "phosphorus": 0.33333,
+    "chlorine": 0.33333
+  },
+  "results": {
+    "unstable_mutagen": 1.0
+  },
+  "min_volume": 0.99999
+}

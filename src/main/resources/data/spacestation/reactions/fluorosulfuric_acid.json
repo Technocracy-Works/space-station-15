@@ -1,0 +1,12 @@
+{
+  "reagents": {
+    "fluorine": 0.25,
+    "hydrogen": 0.25,
+    "potassium": 0.25,
+    "sulfuric_acid": 0.25
+  },
+  "results": {
+    "fluorosulfuric_acid": 1.0
+  },
+  "min_volume": 1.0
+}

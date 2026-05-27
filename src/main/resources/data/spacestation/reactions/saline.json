@@ -1,0 +1,10 @@
+{
+  "reagents": {
+    "water": 0.8,
+    "table_salt": 0.2
+  },
+  "results": {
+    "saline": 1.0
+  },
+  "min_volume": 1.0
+}

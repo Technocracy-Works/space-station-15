@@ -1,0 +1,13 @@
+{
+  "reagents": {
+    "diethylamine": 0.2,
+    "oil": 0.2,
+    "table_salt": 0.2,
+    "carbon": 0.2,
+    "ethanol": 0.2
+  },
+  "results": {
+    "diphenhydramine": 1.0
+  },
+  "min_volume": 1.0
+}

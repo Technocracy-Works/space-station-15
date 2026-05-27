@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "radium": 0.33333,
+    "table_salt": 0.33333,
+    "ethanol": 0.33333
+  },
+  "results": {
+    "lipozine": 1.0
+  },
+  "min_volume": 0.99999
+}

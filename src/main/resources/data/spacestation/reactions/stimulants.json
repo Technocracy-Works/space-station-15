@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "ephedrine": 0.5,
+    "vestine": 0.5,
+    "oxygen": 1.0
+  },
+  "results": {
+    "stimulants": 1.0
+  },
+  "min_volume": 2.0
+}

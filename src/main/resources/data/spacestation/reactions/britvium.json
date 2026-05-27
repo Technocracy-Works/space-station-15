@@ -1,0 +1,10 @@
+{
+  "reagents": {
+    "lacerinol": 1.0,
+    "bicaridine": 1.0
+  },
+  "results": {
+    "britvium": 1.0
+  },
+  "min_volume": 2.0
+}

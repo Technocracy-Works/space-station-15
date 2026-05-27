@@ -1,0 +1,10 @@
+{
+  "reagents": {
+    "impedrezene": 2.0,
+    "vestine": 1.0
+  },
+  "results": {
+    "nocturine": 1.0
+  },
+  "min_volume": 3.0
+}

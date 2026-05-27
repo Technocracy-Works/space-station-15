@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "cryoxadone": 0.33333,
+    "blood": 0.5,
+    "omnizine": 0.16667
+  },
+  "results": {
+    "necrosol": 1.0
+  },
+  "min_volume": 1.0
+}

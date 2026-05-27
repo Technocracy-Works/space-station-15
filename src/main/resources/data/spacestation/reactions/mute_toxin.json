@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "uranium": 0.5,
+    "vestine": 1.0,
+    "space_glue": 1.0
+  },
+  "results": {
+    "mute_toxin": 1.0
+  },
+  "min_volume": 2.5
+}

@@ -1,0 +1,10 @@
+{
+  "reagents": {
+    "lithium": 0.5,
+    "hydrogen": 0.5
+  },
+  "results": {
+    "foaming_agent": 1.0
+  },
+  "min_volume": 1.0
+}

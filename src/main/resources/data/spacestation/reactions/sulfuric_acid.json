@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "hydrogen": 0.33333,
+    "sulfur": 0.33333,
+    "oxygen": 0.66667
+  },
+  "results": {
+    "sulfuric_acid": 1.0
+  },
+  "min_volume": 1.33333
+}

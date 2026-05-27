@@ -1,0 +1,10 @@
+{
+  "reagents": {
+    "silicon": 0.5,
+    "carbon": 0.5
+  },
+  "results": {
+    "kelotane": 1.0
+  },
+  "min_volume": 1.0
+}

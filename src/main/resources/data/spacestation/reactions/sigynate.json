@@ -1,0 +1,13 @@
+{
+  "reagents": {
+    "water": 0.2,
+    "sodium_hydroxide": 0.2,
+    "sodium_carbonate": 0.2,
+    "kelotane": 0.2,
+    "sugar": 0.2
+  },
+  "results": {
+    "sigynate": 1.0
+  },
+  "min_volume": 1.0
+}

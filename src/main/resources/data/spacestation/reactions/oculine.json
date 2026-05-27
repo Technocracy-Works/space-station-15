@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "hydroxide": 0.5,
+    "blood": 0.25,
+    "table_salt": 0.25
+  },
+  "results": {
+    "oculine": 1.0
+  },
+  "min_volume": 1.0
+}

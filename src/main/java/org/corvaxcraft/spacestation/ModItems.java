@@ -14,6 +14,9 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
+import org.corvaxcraft.spacestation.chemistry.ChemContainer;
+import org.corvaxcraft.spacestation.chemistry.ChemData;
+import org.corvaxcraft.spacestation.chemistry.ModComponents;
 
 public final class ModItems {
 
@@ -343,6 +346,22 @@ public final class ModItems {
     );
 
     public static final Item ID_CARD = register("id_card");
+
+    public static final Item BEAKER = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "beaker"),
+            new ChemContainer(new Item.Settings()
+                    .maxCount(1)
+                    .component(ModComponents.CHEM_DATA, ChemData.EMPTY_BEAKER))
+    );
+
+    public static final Item CANISTER = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "canister"),
+            new ChemContainer(new Item.Settings()
+                    .maxCount(1)
+                    .component(ModComponents.CHEM_DATA, ChemData.EMPTY_CANISTER))
+    );
 
     private ModItems() {}
 

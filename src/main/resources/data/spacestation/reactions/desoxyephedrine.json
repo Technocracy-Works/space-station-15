@@ -1,0 +1,12 @@
+{
+  "reagents": {
+    "ephedrine": 0.25,
+    "carbon": 0.25,
+    "iodine": 0.25,
+    "phosphorus": 0.25
+  },
+  "results": {
+    "desoxyephedrine": 1.0
+  },
+  "min_volume": 1.0
+}

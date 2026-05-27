@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "lithium": 0.33333,
+    "tricordrazine": 0.33333,
+    "cryoxadone": 0.33333
+  },
+  "results": {
+    "arkryox": 1.0
+  },
+  "min_volume": 0.99999
+}

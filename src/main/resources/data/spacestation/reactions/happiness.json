@@ -1,0 +1,12 @@
+{
+  "reagents": {
+    "laughter": 0.5,
+    "epinephrine": 0.25,
+    "ethanol": 0.25,
+    "plasma": 1.25
+  },
+  "results": {
+    "happiness": 1.0
+  },
+  "min_volume": 2.25
+}

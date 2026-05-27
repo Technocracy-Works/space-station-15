@@ -1,0 +1,10 @@
+{
+  "reagents": {
+    "water": 1.0,
+    "blessing": 0.0
+  },
+  "results": {
+    "holy_water": 1.0
+  },
+  "min_volume": 1.0
+}

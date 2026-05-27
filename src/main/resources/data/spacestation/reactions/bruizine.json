@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "bicaridine": 0.5,
+    "lithium": 0.45,
+    "sugar": 0.5
+  },
+  "results": {
+    "bruizine": 1.0
+  },
+  "min_volume": 1.45
+}

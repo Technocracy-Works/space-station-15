@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "heartbreaker_toxin": 0.5,
+    "plasma": 0.5,
+    "vestine": 0.5
+  },
+  "results": {
+    "lexorin": 1.0
+  },
+  "min_volume": 1.5
+}

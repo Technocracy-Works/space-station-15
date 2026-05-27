@@ -1,0 +1,10 @@
+{
+  "reagents": {
+    "oxygen": 1.0,
+    "plasma": 0.0
+  },
+  "results": {
+    "dexalin": 1.0
+  },
+  "min_volume": 1.0
+}

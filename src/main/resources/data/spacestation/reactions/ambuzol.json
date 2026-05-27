@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "ammonia": 0.25,
+    "dylovene": 0.25,
+    "zombie_blood": 0.5
+  },
+  "results": {
+    "ambuzol": 1.0
+  },
+  "min_volume": 1.0
+}

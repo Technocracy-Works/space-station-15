@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "inaprovaline": 0.33333,
+    "sugar": 0.33333,
+    "sulfuric_acid": 0.33333
+  },
+  "results": {
+    "tranexamic_acid": 1.0
+  },
+  "min_volume": 0.99999
+}

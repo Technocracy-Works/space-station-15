@@ -1,0 +1,10 @@
+{
+  "reagents": {
+    "carbon": 1.0,
+    "ash": 1.0
+  },
+  "results": {
+    "charcoal": 1.0
+  },
+  "min_volume": 2.0
+}

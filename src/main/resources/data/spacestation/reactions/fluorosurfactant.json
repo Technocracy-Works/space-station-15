@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "carbon": 0.4,
+    "fluorine": 0.4,
+    "sulfuric_acid": 0.2
+  },
+  "results": {
+    "fluorosurfactant": 1.0
+  },
+  "min_volume": 1.0
+}

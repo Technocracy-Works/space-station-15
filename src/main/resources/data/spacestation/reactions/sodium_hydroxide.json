@@ -1,0 +1,10 @@
+{
+  "reagents": {
+    "hydroxide": 0.5,
+    "sodium": 0.5
+  },
+  "results": {
+    "sodium_hydroxide": 1.0
+  },
+  "min_volume": 1.0
+}

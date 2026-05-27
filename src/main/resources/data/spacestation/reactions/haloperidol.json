@@ -1,0 +1,13 @@
+{
+  "reagents": {
+    "aluminum": 0.2,
+    "chlorine": 0.2,
+    "fluorine": 0.2,
+    "oil": 0.2,
+    "potassium_iodide": 0.2
+  },
+  "results": {
+    "haloperidol": 1.0
+  },
+  "min_volume": 1.0
+}

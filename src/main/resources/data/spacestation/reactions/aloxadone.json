@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "aloe": 0.2,
+    "cryoxadone": 0.4,
+    "leporazine": 0.4
+  },
+  "results": {
+    "aloxadone": 1.0
+  },
+  "min_volume": 1.0
+}

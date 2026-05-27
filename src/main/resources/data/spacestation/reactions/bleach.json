@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "sodium_hydroxide": 0.2,
+    "space_cleaner": 0.4,
+    "table_salt": 0.4
+  },
+  "results": {
+    "bleach": 1.0
+  },
+  "min_volume": 1.0
+}

@@ -1,0 +1,10 @@
+{
+  "reagents": {
+    "lycoxide": 1.0,
+    "vestine": 1.0
+  },
+  "results": {
+    "tazinide": 1.0
+  },
+  "min_volume": 2.0
+}

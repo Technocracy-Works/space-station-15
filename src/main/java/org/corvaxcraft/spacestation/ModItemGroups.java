@@ -18,10 +18,12 @@ public final class ModItemGroups {
                     .entries((context, entries) -> {
                         entries.add(ModItems.BANANIUM);
                         entries.add(ModItems.BANANIUM_ORE);
+                        entries.add(ModItems.BEAKER);
                         entries.add(ModItems.BUTTER);
                         entries.add(ModItems.BUTTER_SLICE);
                         entries.add(ModItems.CROWBAR);
                         entries.add(ModItems.SCREWDRIVER);
+                        entries.add(ModItems.CANISTER);
                         entries.add(ModItems.CROISSANT);
                         entries.add(ModItems.CROISSANT_RAW);
                         entries.add(ModItems.CHEESE_WEDGE);

@@ -1,0 +1,10 @@
+{
+  "reagents": {
+    "oxygen": 0.5,
+    "hydrogen": 0.5
+  },
+  "results": {
+    "hydroxide": 1.0
+  },
+  "min_volume": 1.0
+}

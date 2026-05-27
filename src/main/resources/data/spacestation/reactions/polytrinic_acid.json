@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "sulfuric_acid": 0.33333,
+    "plasma": 0.33333,
+    "potassium": 0.33333
+  },
+  "results": {
+    "polytrinic_acid": 1.0
+  },
+  "min_volume": 0.99999
+}

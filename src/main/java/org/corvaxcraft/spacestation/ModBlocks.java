@@ -9,6 +9,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import org.corvaxcraft.spacestation.chemistry.ChemMasterBlock;
 
 import java.util.function.Function;
 
@@ -104,6 +105,15 @@ public final class ModBlocks {
                     .strength(3.0f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.STONE),
+            true
+    );
+
+    public static final Block CHEM_MASTER_BLOCK = register(
+            "chem_master_block",
+            ChemMasterBlock::new,
+            AbstractBlock.Settings.create()
+                    .strength(2.0f)
+                    .requiresTool(),
             true
     );
 

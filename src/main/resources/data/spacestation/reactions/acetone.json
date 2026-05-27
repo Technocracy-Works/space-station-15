@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "oil": 0.5,
+    "welding_fuel": 0.5,
+    "oxygen": 0.5
+  },
+  "results": {
+    "acetone": 1.0
+  },
+  "min_volume": 1.5
+}

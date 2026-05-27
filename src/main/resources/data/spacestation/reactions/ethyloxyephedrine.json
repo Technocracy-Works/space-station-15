@@ -1,0 +1,10 @@
+{
+  "reagents": {
+    "desoxyephedrine": 0.5,
+    "stellibinin": 0.5
+  },
+  "results": {
+    "ethyloxyephedrine": 1.0
+  },
+  "min_volume": 1.0
+}

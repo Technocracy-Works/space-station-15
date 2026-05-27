@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "unstable_mutagen": 0.33333,
+    "hyronalin": 0.33333,
+    "ethanol": 0.33333
+  },
+  "results": {
+    "phalangimine": 1.0
+  },
+  "min_volume": 0.99999
+}

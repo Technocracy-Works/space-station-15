@@ -1,0 +1,10 @@
+{
+  "reagents": {
+    "iodine": 0.5,
+    "potassium": 0.5
+  },
+  "results": {
+    "potassium_iodide": 1.0
+  },
+  "min_volume": 1.0
+}

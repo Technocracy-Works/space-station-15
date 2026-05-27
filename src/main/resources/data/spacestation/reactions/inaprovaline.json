@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "oxygen": 0.33333,
+    "sugar": 0.33333,
+    "carbon": 0.33333
+  },
+  "results": {
+    "inaprovaline": 1.0
+  },
+  "min_volume": 0.99999
+}

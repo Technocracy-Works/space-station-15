@@ -1,0 +1,12 @@
+{
+  "reagents": {
+    "acetone": 0.25,
+    "hydroxide": 0.25,
+    "phenol": 0.25,
+    "chlorine": 0.25
+  },
+  "results": {
+    "epinephrine": 1.0
+  },
+  "min_volume": 1.0
+}

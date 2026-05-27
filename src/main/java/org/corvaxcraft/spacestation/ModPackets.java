@@ -45,6 +45,20 @@ public class ModPackets {
         @Override public Id<TimerCompletePayload> getId() { return ID; }
     }
 
+    // Пакет перемещения химиката
+    public record ChemMovePayload(String chem, double amount, boolean toContainer) implements CustomPayload {
+        public static final Id<ChemMovePayload> ID =
+                new Id<>(Identifier.of(SpaceStation.MOD_ID, "chem_move"));
+        public static final PacketCodec<PacketByteBuf, ChemMovePayload> CODEC =
+                PacketCodec.tuple(
+                        PacketCodecs.STRING, ChemMovePayload::chem,
+                        PacketCodecs.DOUBLE, ChemMovePayload::amount,
+                        PacketCodecs.BOOL, ChemMovePayload::toContainer,
+                        ChemMovePayload::new
+                );
+        @Override public Id<ChemMovePayload> getId() { return ID; }
+    }
+
     public static void register() {
         PayloadTypeRegistry.playS2C().register(TimerStartPayload.ID, TimerStartPayload.CODEC);
         PayloadTypeRegistry.playS2C().register(TimerCancelPayload.ID, TimerCancelPayload.CODEC);

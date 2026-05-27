@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "oxygen": 0.5,
+    "sodium": 0.25,
+    "nitrogen": 0.25
+  },
+  "results": {
+    "sodium_polycarbonate": 1.0
+  },
+  "min_volume": 1.0
+}

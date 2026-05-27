@@ -1,0 +1,10 @@
+{
+  "reagents": {
+    "aloe": 0.5,
+    "stellibinin": 0.5
+  },
+  "results": {
+    "siderlac": 1.0
+  },
+  "min_volume": 1.0
+}

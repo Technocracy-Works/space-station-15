@@ -1,0 +1,11 @@
+{
+  "reagents": {
+    "sulfuric_acid": 0.33333,
+    "sodium": 0.33333,
+    "nitrogen": 0.33333
+  },
+  "results": {
+    "warfarin": 1.0
+  },
+  "min_volume": 0.99999
+}
