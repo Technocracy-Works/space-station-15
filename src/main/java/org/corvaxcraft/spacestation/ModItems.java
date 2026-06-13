@@ -42,7 +42,7 @@ public final class ModItems {
         public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
             ItemStack result = super.finishUsing(stack, world, user);
 
-            // Креатив — без дюпа бутылок
+            // Креатив — без депа бутылок
             if (user instanceof PlayerEntity player && player.getAbilities().creativeMode) {
                 return result;
             }
@@ -74,6 +74,87 @@ public final class ModItems {
                                     new StatusEffectInstance(StatusEffects.POISON, 30, 4), // 10 секунд
                                     1.0f // шанс (1.0 = 100%)
                             )
+                            .build()
+            ))
+    );
+
+    public static final Item BUN = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "bun"),
+            new Item(new Item.Settings().food(
+                    new FoodComponent.Builder()
+                            .nutrition(2)
+                            .saturationModifier(0.2f)
+                            .build()
+            ))
+    );
+
+    public static final Item BUN_BOTTOM = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "bun_bottom"),
+            new Item(new Item.Settings().food(
+                    new FoodComponent.Builder()
+                            .nutrition(1)
+                            .saturationModifier(0.1f)
+                            .build()
+            ))
+    );
+
+    public static final Item BUN_TOP = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "bun_top"),
+            new Item(new Item.Settings().food(
+                    new FoodComponent.Builder()
+                            .nutrition(1)
+                            .saturationModifier(0.1f)
+                            .build()
+            ))
+    );
+
+    public static final Item BURGER = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "burger"),
+            new Item(new Item.Settings().food(
+                    new FoodComponent.Builder()
+                            .nutrition(8)
+                            .saturationModifier(0.8f)
+                            .build()
+            ))
+    );
+
+    public static final Item BURGER_CHEESE = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "burger_cheese"),
+            new Item(new Item.Settings().food(
+                    new FoodComponent.Builder()
+                            .nutrition(9)
+                            .saturationModifier(0.9f)
+                            .build()
+            ))
+    );
+
+    public static final Item CUTLET_RAW = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "cutlet_raw"),
+            new Item(new Item.Settings().food(
+                    new FoodComponent.Builder()
+                            .nutrition(3)
+                            .saturationModifier(0.1f)
+                            .statusEffect(
+                                    new StatusEffectInstance(StatusEffects.POISON, 220, 0),
+                                    0.2f
+                            )
+                            .build()
+            ))
+    );
+
+    public static final Item CUTLET_COOKED = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "cutlet_cooked"),
+            new Item(new Item.Settings().food(
+                    new FoodComponent.Builder()
+                            .nutrition(4)
+                            .saturationModifier(0.8f)
                             .build()
             ))
     );

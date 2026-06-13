@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "spacestation:bun" },
+    { "item": "spacestation:cutlet_cooked" }
+  ],
+  "result": {
+    "id": "spacestation:burger",
+    "count": 1
+  }
+}

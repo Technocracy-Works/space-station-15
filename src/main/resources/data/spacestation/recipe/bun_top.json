@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B",
+    " K"
+  ],
+  "key": {
+    "B": { "item": "spacestation:bun" },
+    "K": { "item": "spacestation:plastic_knife" }
+  },
+  "result": {
+    "id": "spacestation:bun_top",
+    "count": 2
+  }
+}

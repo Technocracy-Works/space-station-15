@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "spacestation:cutlet_raw"
+  },
+  "result": {
+    "id": "spacestation:cutlet_cooked"
+  },
+  "experience": 0.20,
+  "cookingtime": 200
+}

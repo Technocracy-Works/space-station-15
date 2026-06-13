@@ -19,6 +19,13 @@ public final class ModItemGroups {
                         entries.add(ModItems.BANANIUM);
                         entries.add(ModItems.BANANIUM_ORE);
                         entries.add(ModItems.BEAKER);
+                        entries.add(ModItems.BUN);
+                        entries.add(ModItems.BUN_BOTTOM);
+                        entries.add(ModItems.BUN_TOP);
+                        entries.add(ModItems.BURGER);
+                        entries.add(ModItems.BURGER_CHEESE);
+                        entries.add(ModItems.CUTLET_RAW);
+                        entries.add(ModItems.CUTLET_COOKED);
                         entries.add(ModItems.BUTTER);
                         entries.add(ModItems.BUTTER_SLICE);
                         entries.add(ModItems.CROWBAR);
