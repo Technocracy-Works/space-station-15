@@ -1,4 +1,4 @@
-# SpaceStation 15
+# SpaceStation 15 (EN-US)
 
 ## Overview
 
@@ -26,6 +26,8 @@ SpaceStation is a Fabric mod for Minecraft 1.21.1 that adds sci-fi inspired mate
 4. Launch the game
 
 ---
+
+# SpaceStation 15 (RU-RU)
 
 ## Обзор
 
