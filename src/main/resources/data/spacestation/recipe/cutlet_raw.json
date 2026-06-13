@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:beef" },
+    { "item": "spacestation:plastic_knife" }
+  ],
+  "result": {
+    "id": "spacestation:cutlet_raw",
+    "count": 3
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "spacestation:dough_slice"
+  },
+  "result": {
+    "id": "spacestation:bun"
+  },
+  "experience": 0.10,
+  "cookingtime": 200
+}
