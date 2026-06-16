@@ -11,13 +11,13 @@
 
 <!-- Use lowercase [x] when checking boxes. GitHub renders both, but our automation is case-sensitive and can break sometimes... -->
 <!-- При установке флажков используйте строчные буквы [x]. GitHub отображает оба варианта, но наша автоматизация чувствительна к регистру и иногда может давать сбои... -->
-* [ ] Code
-* [ ] Artwork / Sprites
-* [ ] Textures
-* [ ] Sound / Music
-* [ ] Documentation / Writing
-* [ ] Translation
-* [ ] Other
+- [ ] Code
+- [ ] Artwork / Sprites
+- [ ] Textures
+- [ ] Sound / Music
+- [ ] Documentation / Writing
+- [ ] Translation
+- [ ] Other
 
 ---
 
