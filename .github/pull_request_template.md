@@ -7,7 +7,7 @@
 ---
 
 ## Contribution Type
-<!-- -->
+<!-- DON'T CHANGE TEXT, BECAUSE GITHUB ACTIONS MAY NOT WORK PROPERLY -->
 <!-- Contribute type. Choose everything that apply wtih [X] (if you made code, choose code, if you created sprites, choose sprites, etc.) -->
 <!-- Тип контрибьюта. Выделить всё применимое с помощью [X] (если контрибутите код, выбрать код, если спрайты, то спрайты и т.д.) -->
 
