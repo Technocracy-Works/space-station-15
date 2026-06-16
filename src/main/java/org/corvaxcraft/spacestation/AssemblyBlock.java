@@ -37,7 +37,6 @@ public class AssemblyBlock extends Block {
         ASSEMBLY_REGISTRY.computeIfAbsent(source, k -> new HashMap<>())
                 .put(material, upgrade);
 
-        // Регистрируем обратный крафт если указаны инструменты
         if (!toolSet.isEmpty()) {
             DISASSEMBLY_REGISTRY.put(result, new Upgrade(source, cost, assemblyTime, disassemblyTime, toolSet));
         }
