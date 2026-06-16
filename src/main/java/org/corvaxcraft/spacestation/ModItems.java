@@ -175,7 +175,7 @@ public final class ModItems {
             Identifier.of(SpaceStation.MOD_ID, "crowbar"),
             new Item(new Item.Settings()
                     .maxCount(1)
-                    .maxDamage(100) // вот и вся прочность
+                    .maxDamage(100) 
             )
     );
 
