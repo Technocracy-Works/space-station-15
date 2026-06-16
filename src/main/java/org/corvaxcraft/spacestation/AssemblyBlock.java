@@ -63,7 +63,6 @@ public class AssemblyBlock extends Block {
 
         if (world.isClient()) return ItemActionResult.SUCCESS;
 
-// Сборка
         if (canAssemble) {
             Upgrade upgrade = upgrades.get(heldItem);
             if (stack.getCount() < upgrade.cost()) return ItemActionResult.FAIL;
@@ -82,7 +81,6 @@ public class AssemblyBlock extends Block {
             return ItemActionResult.SUCCESS;
         }
 
-// Разбор
         if (canDisassemble) {
             if (ActionTimer.isActive((ServerPlayerEntity) player, pos)) return ItemActionResult.SUCCESS;
 
