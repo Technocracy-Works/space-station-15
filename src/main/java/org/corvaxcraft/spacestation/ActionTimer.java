@@ -30,7 +30,6 @@ public class ActionTimer {
         ACTIVE.put(player.getUuid(), new ActiveAction(
                 pos, player.getPos(), ticks, ticks, onComplete, isDisassembly
         ));
-        // Отправляем клиенту старт
         ModPackets.sendTimerStart(player, ticks, isDisassembly);
     }
 
