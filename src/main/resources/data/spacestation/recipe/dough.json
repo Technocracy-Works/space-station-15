@@ -1,10 +1,8 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    { "item": "minecraft:wheat" },
-    { "item": "minecraft:wheat" },
-    { "item": "minecraft:wheat" },
-    { "item": "minecraft:wheat" }
+    { "item": "spacestation:flour" },
+    { "item": "minecraft:water_bucket" }
   ],
   "result": {
     "id": "spacestation:dough",

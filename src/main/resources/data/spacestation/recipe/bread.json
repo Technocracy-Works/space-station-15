@@ -1,10 +1,10 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "spacestation:sausage_bread_raw"
+    "item": "spacestation:dough"
   },
   "result": {
-    "id": "spacestation:sausage_bread"
+    "id": "minecraft:bread"
   },
   "experience": 0.10,
   "cookingtime": 200

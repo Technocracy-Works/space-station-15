@@ -56,6 +56,8 @@ public final class ModItemGroups {
                         entries.add(ModBlocks.STEEL_WALL.asItem());
                         entries.add(ModBlocks.STEEL_WALL_REINFORCED.asItem());
                         entries.add(ModBlocks.URANIUM_ORE_BLOCK.asItem());
+                        entries.add(ModBlocks.CHEM_MASTER_BLOCK.asItem());
+                        entries.add(ModItems.URANIUM);
                         entries.add(ModItems.URANIUM_ORE);
                         entries.add(ModItems.STEEL_ORE);
                         entries.add(ModItems.STEEL);

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "spacestation:dough_slice" },
+    { "item": "spacestation:dough_slice" },
+    { "item": "spacestation:dough_slice" },
+    { "item": "spacestation:dough_slice" }
+  ],
+  "result": {
+    "id": "spacestation:dough",
+    "count": 1
+  }
+}

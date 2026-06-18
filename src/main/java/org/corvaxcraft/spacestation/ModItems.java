@@ -335,6 +335,7 @@ public final class ModItems {
     );
 
     public static final Item STEEL_ORE = register("steel_ore");
+    public static final Item URANIUM = register("uranium");
     public static final Item URANIUM_ORE = register("uranium_ore");
     public static final Item STEEL = register("steel");
     public static final Item PLASTEEL = register("plasteel");
