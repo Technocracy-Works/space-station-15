@@ -45,13 +45,11 @@ public class ActionTimer {
         ActiveAction action = ACTIVE.get(uuid);
         if (action == null) return;
 
-        // Отменяем если игрок сдвинулся
         if (player.getPos().distanceTo(action.startPos()) > 0.2) {
             cancel(player);
             return;
         }
 
-        // Отменяем если блок уже не тот (например его сломали)
         if (player.getWorld().getBlockState(action.pos()).getBlock()
                 != player.getWorld().getBlockState(action.pos()).getBlock()) {
             cancel(player);
