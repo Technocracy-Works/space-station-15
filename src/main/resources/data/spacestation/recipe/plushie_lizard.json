@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CDC",
+    "CCC"
+  ],
+  "key": {
+    "C": { "item": "spacestation:cloth" },
+    "D": { "item": "minecraft:green_dye" }
+  },
+  "result": {
+    "id": "spacestation:plushie_lizard",
+    "count": 1
+  }
+}

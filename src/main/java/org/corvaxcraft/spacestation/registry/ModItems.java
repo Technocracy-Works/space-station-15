@@ -302,6 +302,7 @@ public final class ModItems {
     );
 
     public static final Item BANANIUM_ORE = register("bananium_ore");
+    public static final Item CLOTH = register("cloth");
     public static final Item PLASMA_ORE = register("plasma_ore");
     public static final Item PLASMA = register("plasma");
     public static final Item FLOUR = register("flour");
@@ -311,6 +312,15 @@ public final class ModItems {
     public  static final Item DOUGH_SLICE = register("dough_slice");
     public static final Item DOUGH_FLAT = register("dough_flat");
     public static final Item TELECRYSTAL = register("telecrystal");
+
+    public static final Item COTTON = register("cotton");
+    public static final Item COTTON_RAW = register("cotton_raw");
+
+    public static final Item COTTON_SEEDS = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "cotton_seeds"),
+            new AliasedBlockItem(ModBlocks.COTTON_CROP, new Item.Settings())
+    );
 
     public static final Item TOMATO = Registry.register(
             Registries.ITEM,
@@ -433,6 +443,10 @@ public final class ModItems {
                     .maxCount(1)
             )
     );
+
+    public static final Item PLUSHIE_BEE = register("plushie_bee");
+    public static final Item PLUSHIE_IAN = register("plushie_ian");
+    public static final Item PLUSHIE_LIZARD = register("plushie_lizard");
 
     public static final Item ID_CARD = register("id_card");
 

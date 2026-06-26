@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "spacestation:cotton" },
+    { "item": "spacestation:cotton" }
+  ],
+  "result": {
+    "id": "spacestation:cloth",
+    "count": 1
+  }
+}

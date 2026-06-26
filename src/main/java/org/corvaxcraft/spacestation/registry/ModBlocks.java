@@ -11,6 +11,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import org.corvaxcraft.spacestation.SpaceStation;
 import org.corvaxcraft.spacestation.block.AssemblyBlock;
+import org.corvaxcraft.spacestation.block.CottonCropBlock;
 import org.corvaxcraft.spacestation.block.TomatoCropBlock;
 import org.corvaxcraft.spacestation.block.TowercapCropBlock;
 import org.corvaxcraft.spacestation.chemistry.ChemMasterBlock;
@@ -73,6 +74,14 @@ public final class ModBlocks {
                     .sounds(BlockSoundGroup.CHAIN)
                     .nonOpaque(),
             true
+    );
+
+    public static final Block COTTON_CROP = Registry.register(
+            Registries.BLOCK,
+            Identifier.of(SpaceStation.MOD_ID, "cotton_crop"),
+            new CottonCropBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)
+                    .nonOpaque()
+                    .ticksRandomly())
     );
 
     public static final Block TOMATO_CROP = Registry.register(

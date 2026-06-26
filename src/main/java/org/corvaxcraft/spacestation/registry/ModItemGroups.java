@@ -25,6 +25,7 @@ public final class ModItemGroups {
                         entries.add(ModItems.BUN_TOP);
                         entries.add(ModItems.BURGER);
                         entries.add(ModItems.BURGER_CHEESE);
+                        entries.add(ModItems.CLOTH);
                         entries.add(ModItems.CUTLET_RAW);
                         entries.add(ModItems.CUTLET_COOKED);
                         entries.add(ModItems.BUTTER);
@@ -46,6 +47,9 @@ public final class ModItemGroups {
                         entries.add(ModItems.SAUSAGE_BREAD_SLICE);
                         entries.add(ModItems.FLOUR);
                         entries.add(ModItems.TELECRYSTAL);
+                        entries.add(ModItems.COTTON);
+                        entries.add(ModItems.COTTON_RAW);
+                        entries.add(ModItems.COTTON_SEEDS);
                         entries.add(ModItems.TOMATO);
                         entries.add(ModItems.TOMATO_SEEDS);
                         entries.add(ModBlocks.TELECRYSTAL_BLOCK.asItem());
@@ -69,6 +73,9 @@ public final class ModItemGroups {
                         entries.add(ModItems.PLASTIC_KNIFE);
                         entries.add(ModItems.PLASMA_ORE);
                         entries.add(ModItems.PLASMA);
+                        entries.add(ModItems.PLUSHIE_BEE);
+                        entries.add(ModItems.PLUSHIE_IAN);
+                        entries.add(ModItems.PLUSHIE_LIZARD);
                         entries.add(ModItems.PIZZA_MEAT);
                         entries.add(ModItems.PIZZA_MEAT_RAW);
                         entries.add(ModItems.PIZZA_MEAT_SLICE);

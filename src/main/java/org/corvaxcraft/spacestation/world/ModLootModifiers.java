@@ -22,6 +22,18 @@ public class ModLootModifiers {
         LootTableEvents.MODIFY.register((key, tableBuilder, source, registries) -> {
             if (!source.isBuiltin()) return;
 
+            addSeedLoot(key, tableBuilder, ModItems.COTTON_SEEDS, Map.of(
+                    List.of(
+                            LootTables.VILLAGE_PLAINS_CHEST,
+                            LootTables.VILLAGE_SAVANNA_HOUSE_CHEST,
+                            LootTables.VILLAGE_TAIGA_HOUSE_CHEST,
+                            LootTables.VILLAGE_SNOWY_HOUSE_CHEST,
+                            LootTables.VILLAGE_DESERT_HOUSE_CHEST
+                    ), 0.3f,
+                    List.of(LootTables.SHIPWRECK_SUPPLY_CHEST), 0.2f,
+                    List.of(LootTables.SIMPLE_DUNGEON_CHEST), 0.15f
+            ));
+
             addSeedLoot(key, tableBuilder, ModItems.TOMATO_SEEDS, Map.of(
                     List.of(
                             LootTables.VILLAGE_PLAINS_CHEST,

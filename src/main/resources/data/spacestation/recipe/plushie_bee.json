@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CHC",
+    "CCC"
+  ],
+  "key": {
+    "C": { "item": "spacestation:cloth" },
+    "H": { "item": "minecraft:honey_block" }
+  },
+  "result": {
+    "id": "spacestation:plushie_bee",
+    "count": 1
+  }
+}

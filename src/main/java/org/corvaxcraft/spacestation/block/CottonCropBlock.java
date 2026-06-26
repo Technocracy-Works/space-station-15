@@ -1,0 +1,16 @@
+package org.corvaxcraft.spacestation.block;
+
+import net.minecraft.block.CropBlock;
+import net.minecraft.item.ItemConvertible;
+import org.corvaxcraft.spacestation.registry.ModItems;
+
+public class CottonCropBlock extends CropBlock {
+    public CottonCropBlock(Settings settings) {
+        super(settings);
+    }
+
+    @Override
+    protected ItemConvertible getSeedsItem() {
+        return ModItems.COTTON_SEEDS;
+    }
+}

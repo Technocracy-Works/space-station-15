@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CBC",
+    "CCC"
+  ],
+  "key": {
+    "C": { "item": "spacestation:cloth" },
+    "B": { "item": "minecraft:bone" }
+  },
+  "result": {
+    "id": "spacestation:plushie_ian",
+    "count": 1
+  }
+}
