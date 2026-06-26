@@ -86,7 +86,7 @@ public class ChemContainer extends Item {
         }
     }
 
-    // Тултип — показываем содержимое
+    // Тултип с содержимым
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context,
                               List<Text> tooltip, TooltipType type) {
