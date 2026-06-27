@@ -239,6 +239,32 @@ public final class ModItems {
             ))
     );
 
+    public static final Item Spaghetti = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "spaghetti"),
+            new Item(new Item.Settings()
+                    .food(
+                            new FoodComponent.Builder()
+                                    .nutrition(2)
+                                    .saturationModifier(1.5f)
+                                    .build()
+                    )
+            )
+    );
+
+    public static final Item XENOMORPH_PLUSH_TOY = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "xenomprph_plush_toy"),
+            new Item(new Item.Settings()
+                    .food(
+                            new FoodComponent.Builder()
+                                    .nutrition(2)
+                                    .saturationModifier(1.5f)
+                                    .build()
+                    )
+            )
+    );
+
     public static final Item CROISSANT_RAW = Registry.register(
             Registries.ITEM,
             Identifier.of(SpaceStation.MOD_ID, "croissant_raw"),
@@ -400,6 +426,19 @@ public final class ModItems {
     public static final Item PIZZA_Pineapple = Registry.register(
             Registries.ITEM,
             Identifier.of(SpaceStation.MOD_ID, "pizza_pineapple"),
+            new Item(new Item.Settings()
+                    .food(
+                            new FoodComponent.Builder()
+                                    .nutrition(2)
+                                    .saturationModifier(1.5f)
+                                    .build()
+                    )
+            )
+    );
+
+    public static final Item Pineapple = Registry.register(
+            Registries.ITEM,
+            Identifier.of(SpaceStation.MOD_ID, "pineapple"),
             new Item(new Item.Settings()
                     .food(
                             new FoodComponent.Builder()
