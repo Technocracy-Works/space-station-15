@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"org.corvaxcraft.spacestation.SpaceStation"
+			"org.technocracy.spacestation.SpaceStation"
         ],
         "client": [
-          "org.corvaxcraft.spacestation.client.SpaceStationClient"
+          "org.technocracy.spacestation.client.SpaceStationClient"
         ]
 	},
 	"depends": {
