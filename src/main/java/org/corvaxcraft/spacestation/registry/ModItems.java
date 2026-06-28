@@ -252,7 +252,7 @@ public final class ModItems {
             )
     );
 
-    public static final Item XENOMORPH_PLUSH_TOY = register("xenomprph_plush_toy");
+    public static final Item XENOMORPH_PLUSH_TOY = register("xenomorph_plush_toy");
 
     public static final Item CROISSANT_RAW = Registry.register(
             Registries.ITEM,
