@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "spacestation:block/wall_girder"
+      "model": "spacestation:block/wall/wall_girder"
     }
   }
 }

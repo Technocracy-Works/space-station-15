@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "top": "spacestation:block/steel_wall_top",
-    "bottom": "spacestation:block/steel_wall_bottom",
-    "side": "spacestation:block/steel_wall_side"
-  }
-}

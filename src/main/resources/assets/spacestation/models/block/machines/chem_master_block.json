@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "spacestation:block/machines/chem_master/chem_master_block_side"
+  }
+}

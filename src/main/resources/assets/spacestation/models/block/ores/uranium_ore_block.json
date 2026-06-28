@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "spacestation:block/ores/uranium/uranium_ore_block"
+  }
+}
