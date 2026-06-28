@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "spacestation:item/rod"
+    "layer0": "spacestation:item/material/rod"
   }
 }

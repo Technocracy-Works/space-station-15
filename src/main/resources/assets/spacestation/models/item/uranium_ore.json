@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "spacestation:item/ores/uranium_ore"
+    "layer0": "spacestation:item/ores/uranium/uranium_ore"
   }
 }

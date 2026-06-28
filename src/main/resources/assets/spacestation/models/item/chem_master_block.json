@@ -1,3 +1,3 @@
 {
-  "parent": "spacestation:block/chem_master_block"
+  "parent": "spacestation:block/machines/chem_master/chem_master_block"
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "spacestation:item/pizza_meat_raw"
+    "layer0": "spacestation:item/food/pizza/pizza_meat_raw"
   }
 }

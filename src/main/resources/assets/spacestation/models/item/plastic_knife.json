@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "spacestation:item/plastic_knife"
+    "layer0": "spacestation:item/misc/plastic_knife"
   }
 }

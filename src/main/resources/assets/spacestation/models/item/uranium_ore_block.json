@@ -1,3 +1,3 @@
 {
-  "parent": "spacestation:block/uranium_ore_block"
+  "parent": "spacestation:block/ores/uranium/uranium_ore_block"
 }

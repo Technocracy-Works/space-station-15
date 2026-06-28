@@ -1,3 +1,3 @@
 {
-  "parent": "spacestation:block/plasma_ore_block"
+  "parent": "spacestation:block/ores/plasma/plasma_ore_block"
 }

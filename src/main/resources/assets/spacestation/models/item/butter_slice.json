@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "spacestation:item/butter_slice"
+    "layer0": "spacestation:item/food/ingredient/butter_slice"
   }
 }

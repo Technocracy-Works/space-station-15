@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "spacestation:block/ores/plasma_ore_block"
+      "model": "spacestation:block/ores/plasma/plasma_ore_block"
     }
   }
 }

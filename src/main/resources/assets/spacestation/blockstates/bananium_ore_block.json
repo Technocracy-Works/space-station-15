@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "spacestation:block/ores/bananium_ore_block"
+      "model": "spacestation:block/ores/bananium/bananium_ore_block"
     }
   }
 }

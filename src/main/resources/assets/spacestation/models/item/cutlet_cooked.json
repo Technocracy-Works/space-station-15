@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "spacestation:item/cutlet_cooked"
+    "layer0": "spacestation:item/food/meat/cutlet_cooked"
   }
 }

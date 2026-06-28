@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "spacestation:block/ores/uranium_ore_block"
+      "model": "spacestation:block/ores/uranium/uranium_ore_block"
     }
   }
 }

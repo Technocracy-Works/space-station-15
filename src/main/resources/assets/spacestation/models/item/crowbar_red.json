@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "spacestation:item/crowbar_red"
+    "layer0": "spacestation:item/instrument/crowbar_red"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "spacestation:item/ores/plasma"
+    "layer0": "spacestation:item/ores/plasma/plasma"
   }
 }

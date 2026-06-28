@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "spacestation:item/pizza_mushroom_slice"
+    "layer0": "spacestation:item/food/pizza/pizza_mushroom_slice"
   }
 }

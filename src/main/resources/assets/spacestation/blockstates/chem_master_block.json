@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "spacestation:block/machines/chem_master_block"
+      "model": "spacestation:block/machines/chem_master/chem_master_block"
     }
   }
 }

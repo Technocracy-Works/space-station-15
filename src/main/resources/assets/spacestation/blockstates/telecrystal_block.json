@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "spacestation:block/ores/telecrystal_block"
+      "model": "spacestation:block/ores/telecrystal/telecrystal_block"
     }
   }
 }

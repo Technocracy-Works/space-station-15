@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "spacestation:item/id_card"
+    "layer0": "spacestation:item/misc/id_card"
   }
 }
