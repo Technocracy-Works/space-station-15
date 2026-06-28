@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "spacestation:item/Xenomorph_plush_toy"
+    "layer0": "spacestation:item/plushie_xenomorph"
   }
 }
