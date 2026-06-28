@@ -10,6 +10,7 @@ import org.corvaxcraft.spacestation.network.ModPackets;
 import org.corvaxcraft.spacestation.registry.ModBlocks;
 import org.corvaxcraft.spacestation.registry.ModItemGroups;
 import org.corvaxcraft.spacestation.registry.ModItems;
+import org.corvaxcraft.spacestation.registry.ModSounds;
 import org.corvaxcraft.spacestation.system.ActionTimer;
 import org.corvaxcraft.spacestation.world.ModLootModifiers;
 import org.corvaxcraft.spacestation.world.ModWorldGeneration;
@@ -25,6 +26,7 @@ public class SpaceStation implements ModInitializer {
         });
 
         ModComponents.register();
+        ModSounds.register();
         ModItems.register();
         ModBlocks.register();
         ModBlockEntities.register();

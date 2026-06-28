@@ -82,5 +82,6 @@
   "item.spacestation.id_card": "Айди Карточка",
   "item.spacestation.wrench": "Гаечный Ключ",
   "item.spacestation.welder": "Сварка",
-  "itemGroup.spacestation.content": "Космическая Станция 15"
+  "itemGroup.spacestation.content": "Космическая Станция 15",
+  "subtitles.spacestation.plushie.squeak": "Плюшка пищит"
 }

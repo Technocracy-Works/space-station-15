@@ -1,0 +1,20 @@
+{
+  "plushie.squeak1": {
+    "subtitle": "subtitles.spacestation.plushie.squeak",
+    "sounds": [
+      "spacestation:plushie/squeak1"
+    ]
+  },
+  "plushie.squeak2": {
+    "subtitle": "subtitles.spacestation.plushie.squeak",
+    "sounds": [
+      "spacestation:plushie/squeak2"
+    ]
+  },
+  "plushie.squeak3": {
+    "subtitle": "subtitles.spacestation.plushie.squeak",
+    "sounds": [
+      "spacestation:plushie/squeak3"
+    ]
+  }
+}

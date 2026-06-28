@@ -14,10 +14,12 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
+import net.minecraft.sound.SoundEvent;
 import org.corvaxcraft.spacestation.SpaceStation;
 import org.corvaxcraft.spacestation.chemistry.ChemContainer;
 import org.corvaxcraft.spacestation.chemistry.ChemData;
 import org.corvaxcraft.spacestation.chemistry.ModComponents;
+import org.corvaxcraft.spacestation.item.SqueakyPlushieItem;
 
 public final class ModItems {
 
@@ -504,10 +506,14 @@ public final class ModItems {
             )
     );
 
-    public static final Item PLUSHIE_BEE = register("plushie_bee");
-    public static final Item PLUSHIE_IAN = register("plushie_ian");
-    public static final Item PLUSHIE_LIZARD = register("plushie_lizard");
-    public static final Item PLUSHIE_XENO = register("plushie_xeno");
+    public static final Item PLUSHIE_BEE = registerSqueakyPlushie(
+            "plushie_bee", ModSounds.PLUSHIE_SQUEAK_1, ModSounds.PLUSHIE_SQUEAK_2);
+    public static final Item PLUSHIE_IAN = registerSqueakyPlushie(
+            "plushie_ian", ModSounds.PLUSHIE_SQUEAK_2, ModSounds.PLUSHIE_SQUEAK_3);
+    public static final Item PLUSHIE_LIZARD = registerSqueakyPlushie(
+            "plushie_lizard", ModSounds.PLUSHIE_SQUEAK_1, ModSounds.PLUSHIE_SQUEAK_3);
+    public static final Item PLUSHIE_XENO = registerSqueakyPlushie(
+            "plushie_xeno", ModSounds.PLUSHIE_SQUEAK_1, ModSounds.PLUSHIE_SQUEAK_2, ModSounds.PLUSHIE_SQUEAK_3);
 
     public static final Item ID_CARD = register("id_card");
 
@@ -543,6 +549,14 @@ public final class ModItems {
                 Registries.ITEM,
                 Identifier.of(SpaceStation.MOD_ID, name),
                 new Item(new Item.Settings())
+        );
+    }
+
+    private static Item registerSqueakyPlushie(String name, SoundEvent... squeakSounds) {
+        return Registry.register(
+                Registries.ITEM,
+                Identifier.of(SpaceStation.MOD_ID, name),
+                new SqueakyPlushieItem(new Item.Settings(), squeakSounds)
         );
     }
 
