@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "org.corvaxcraft.client.mixin",
+	"package": "org.technocracy.client.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
 		"ExampleClientMixin"
