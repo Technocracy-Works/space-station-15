@@ -19,6 +19,7 @@ Vielen Dank an alle, die zu diesem Projekt beigetragen haben ❤️
 
 ## Sound & Music
 
+- @Swino4ka
 ## Documentation / Writing
 
 - @Swino4ka
