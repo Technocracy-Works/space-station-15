@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "spacestation:block/wall/reinforced/steel_wall_reinforced_top",
+    "bottom": "spacestation:block/wall/reinforced/steel_wall_reinforced_bottom",
+    "side": "spacestation:block/wall/reinforced/steel_wall_reinforced_side"
+  }
+}

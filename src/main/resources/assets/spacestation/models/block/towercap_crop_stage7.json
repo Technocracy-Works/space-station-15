@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/crop",
-  "textures": {
-    "crop": "spacestation:block/towercap_crop_stage7"
-  }
-}
