@@ -3,7 +3,7 @@ package org.technocracy.spacestation.block;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.CropBlock;
 import net.minecraft.item.ItemConvertible;
-import org.technocracy.spacestation.registry.ModItems;
+import org.technocracy.spacestation.registry.items.FoodItems;
 
 public class TowercapCropBlock extends CropBlock {
     public TowercapCropBlock(AbstractBlock.Settings settings) {
@@ -12,6 +12,6 @@ public class TowercapCropBlock extends CropBlock {
 
     @Override
     protected ItemConvertible getSeedsItem() {
-        return ModItems.TOWERCAP_SEEDS;
+        return FoodItems.TOWERCAP_SEEDS;
     }
 }
