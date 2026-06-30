@@ -14,6 +14,7 @@ Vielen Dank an alle, die zu diesem Projekt beigetragen haben ❤️
 
 - @Swino4ka
 - @AsnDen
+- @Sospurnak
 ## Artwork / Sprites
 
 - @Dead-Wasp
