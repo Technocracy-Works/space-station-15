@@ -15,7 +15,6 @@ import org.technocracy.spacestation.block.CottonCropBlock;
 import org.technocracy.spacestation.block.TomatoCropBlock;
 import org.technocracy.spacestation.block.TowercapCropBlock;
 import org.technocracy.spacestation.chemistry.ChemMasterBlock;
-import org.technocracy.spacestation.registry.items.*;
 
 import java.util.function.Function;
 
@@ -152,9 +151,9 @@ public final class ModBlocks {
     public static void register() {
         // Рецепты для крафта ингейм
         // Без инструментов будет только сборка, без разбора
-        AssemblyBlock.registerUpgrade(WALL_GIRDER, MiscItems.STEEL, STEEL_WALL, 2, 0.4f, 1.2f, ModItems.CROWBAR);
-        AssemblyBlock.registerUpgrade(WALL_GIRDER_REINFORCED, MiscItems.PLASTEEL, STEEL_WALL_REINFORCED, 2, 0.4f, 1.2f, ModItems.CROWBAR);
-        AssemblyBlock.registerUpgrade(WALL_GIRDER, MiscItems.ROD, WALL_GIRDER_REINFORCED, 4, 0.4f, 1.2f, ToolItems.SCREWDRIVER);
+        AssemblyBlock.registerUpgrade(WALL_GIRDER, ModItems.STEEL, STEEL_WALL, 2, 0.4f, 1.2f, ModItems.CROWBAR);
+        AssemblyBlock.registerUpgrade(WALL_GIRDER_REINFORCED, ModItems.PLASTEEL, STEEL_WALL_REINFORCED, 2, 0.4f, 1.2f, ModItems.CROWBAR);
+        AssemblyBlock.registerUpgrade(WALL_GIRDER, ModItems.ROD, WALL_GIRDER_REINFORCED, 4, 0.4f, 1.2f, ModItems.SCREWDRIVER);
 
         // Несколько инструментов для разбора:
         // AssemblyBlock.registerUpgrade(WALL_GIRDER, ModItems.STEEL, STEEL_WALL, 2, ModItems.CROWBAR, ModItems.CROWBAR2);
@@ -162,7 +161,7 @@ public final class ModBlocks {
         // Без разбора вообще:
         // AssemblyBlock.registerUpgrade(WALL_GIRDER, ModItems.TELECRYSTAL, TELECRYSTAL_BLOCK, 9);
 
-        AssemblyBlock.registerUpgrade(WALL_GIRDER, MiscItems.TELECRYSTAL, TELECRYSTAL_BLOCK, 9,  0.4f, 1.2f);
+        AssemblyBlock.registerUpgrade(WALL_GIRDER, ModItems.TELECRYSTAL, TELECRYSTAL_BLOCK, 9,  0.4f, 1.2f);
         // Смотреть Комментарий в МодИтемс.жава
     }
 
