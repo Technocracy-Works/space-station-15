@@ -11,8 +11,7 @@ import net.minecraft.loot.provider.number.UniformLootNumberProvider;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.item.Item;
 import net.minecraft.loot.LootTable;
-import org.technocracy.spacestation.registry.ModCrops;
-import org.technocracy.spacestation.registry.items.*;
+import org.technocracy.spacestation.registry.items.CropItems;
 
 import java.util.List;
 import java.util.Map;
@@ -23,7 +22,7 @@ public class ModLootModifiers {
         LootTableEvents.MODIFY.register((key, tableBuilder, source, registries) -> {
             if (!source.isBuiltin()) return;
 
-            addSeedLoot(key, tableBuilder, ModCrops.COTTON_SEEDS, Map.of(
+            addSeedLoot(key, tableBuilder, CropItems.COTTON_SEEDS, Map.of(
                     List.of(
                             LootTables.VILLAGE_PLAINS_CHEST,
                             LootTables.VILLAGE_SAVANNA_HOUSE_CHEST,
@@ -35,7 +34,7 @@ public class ModLootModifiers {
                     List.of(LootTables.SIMPLE_DUNGEON_CHEST), 0.15f
             ));
 
-            addSeedLoot(key, tableBuilder, ModCrops.TOMATO_SEEDS, Map.of(
+            addSeedLoot(key, tableBuilder, CropItems.TOMATO_SEEDS, Map.of(
                     List.of(
                             LootTables.VILLAGE_PLAINS_CHEST,
                             LootTables.VILLAGE_SAVANNA_HOUSE_CHEST,
@@ -47,7 +46,7 @@ public class ModLootModifiers {
                     List.of(LootTables.SIMPLE_DUNGEON_CHEST), 0.15f
             ));
 
-            addSeedLoot(key, tableBuilder, ModCrops.TOWERCAP_SEEDS, Map.of(
+            addSeedLoot(key, tableBuilder, CropItems.TOWERCAP_SEEDS, Map.of(
                     List.of(
                             LootTables.VILLAGE_PLAINS_CHEST,
                             LootTables.VILLAGE_SAVANNA_HOUSE_CHEST,

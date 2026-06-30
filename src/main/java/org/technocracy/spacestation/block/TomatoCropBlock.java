@@ -3,8 +3,7 @@ package org.technocracy.spacestation.block;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.CropBlock;
 import net.minecraft.item.ItemConvertible;
-import org.technocracy.spacestation.registry.ModCrops;
-import org.technocracy.spacestation.registry.items.FoodItems;
+import org.technocracy.spacestation.registry.items.CropItems;
 
 public class TomatoCropBlock extends CropBlock {
     public TomatoCropBlock(AbstractBlock.Settings settings) {
@@ -13,6 +12,6 @@ public class TomatoCropBlock extends CropBlock {
 
     @Override
     protected ItemConvertible getSeedsItem() {
-        return ModCrops.TOMATO_SEEDS;
+        return CropItems.TOMATO_SEEDS;
     }
 }

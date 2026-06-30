@@ -27,7 +27,6 @@ public class SpaceStation implements ModInitializer {
         ModItems.register();
         ModBlocks.register();
         ModBlockEntities.register();
-        ModCrops.register();
         ModScreenHandlers.register();
         ChemRegistry.register();
         ModItemGroups.register();

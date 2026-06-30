@@ -15,6 +15,7 @@ import org.technocracy.spacestation.block.CottonCropBlock;
 import org.technocracy.spacestation.block.TomatoCropBlock;
 import org.technocracy.spacestation.block.TowercapCropBlock;
 import org.technocracy.spacestation.chemistry.ChemMasterBlock;
+import org.technocracy.spacestation.registry.blocks.CropBlocks;
 import org.technocracy.spacestation.registry.items.*;
 
 import java.util.function.Function;
@@ -140,6 +141,8 @@ public final class ModBlocks {
 
         AssemblyBlock.registerUpgrade(WALL_GIRDER, MiscItems.TELECRYSTAL, TELECRYSTAL_BLOCK, 9,  0.4f, 1.2f);
         // Смотреть Комментарий в МодИтемс.жава
+
+        CropBlocks.register();
     }
 
     private static <T extends Block> T register(
