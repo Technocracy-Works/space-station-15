@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "spacestation:item/plant/towercap/towercap_seeds"
+    "layer0": "spacestation:item/plant/towercap/seed"
   }
 }

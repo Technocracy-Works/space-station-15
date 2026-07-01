@@ -1,28 +1,28 @@
 {
   "variants": {
     "age=0": {
-      "model": "spacestation:block/plant/towercap/towercap_crop_stage0"
+      "model": "spacestation:block/plant/towercap/stage0"
     },
     "age=1": {
-      "model": "spacestation:block/plant/towercap/towercap_crop_stage1"
+      "model": "spacestation:block/plant/towercap/stage1"
     },
     "age=2": {
-      "model": "spacestation:block/plant/towercap/towercap_crop_stage2"
+      "model": "spacestation:block/plant/towercap/stage2"
     },
     "age=3": {
-      "model": "spacestation:block/plant/towercap/towercap_crop_stage3"
+      "model": "spacestation:block/plant/towercap/stage3"
     },
     "age=4": {
-      "model": "spacestation:block/plant/towercap/towercap_crop_stage4"
+      "model": "spacestation:block/plant/towercap/stage4"
     },
     "age=5": {
-      "model": "spacestation:block/plant/towercap/towercap_crop_stage5"
+      "model": "spacestation:block/plant/towercap/stage5"
     },
     "age=6": {
-      "model": "spacestation:block/plant/towercap/towercap_crop_stage6"
+      "model": "spacestation:block/plant/towercap/stage6"
     },
     "age=7": {
-      "model": "spacestation:block/plant/towercap/towercap_crop_stage7"
+      "model": "spacestation:block/plant/towercap/stage7"
     }
   }
 }
