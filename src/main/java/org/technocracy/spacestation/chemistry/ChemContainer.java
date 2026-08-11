@@ -10,6 +10,8 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
+import org.technocracy.spacestation.registry.components.ModComponents;
+
 import java.util.List;
 import java.util.Map;
 

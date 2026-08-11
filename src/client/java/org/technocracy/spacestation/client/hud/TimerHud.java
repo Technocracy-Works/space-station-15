@@ -11,6 +11,7 @@ public class TimerHud {
 
     private static long startTimeMs = 0;
     private static long totalTimeMs = 0;
+    private static long frozenProgressMs = 0;
     private static boolean isDisassembly = false;
 
     private enum State { IDLE, ACTIVE, COMPLETE, CANCELLED }
@@ -27,6 +28,7 @@ public class TimerHud {
         });
 
         ClientPlayNetworking.registerGlobalReceiver(ModPackets.TimerCancelPayload.ID, (payload, ctx) -> {
+            frozenProgressMs = Math.min(1L, (System.currentTimeMillis() - startTimeMs) / totalTimeMs);
             state = State.CANCELLED;
             flashEndMs = System.currentTimeMillis() + 500; // 0.5 секунды красного
         });
@@ -65,7 +67,7 @@ public class TimerHud {
             progress = Math.min(1f, (float) elapsed / totalTimeMs);
         } else {
             progress = state == State.COMPLETE ? 1f : // зелёный — полный
-                    (float)(System.currentTimeMillis() - startTimeMs) / totalTimeMs; // красный — где остановился
+                    (float)frozenProgressMs; // красный — где остановился
         }
 
         int fillColor;

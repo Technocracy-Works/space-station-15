@@ -8,6 +8,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import org.technocracy.spacestation.chemistry.*;
 import org.technocracy.spacestation.network.ModPackets;
 import org.technocracy.spacestation.registry.*;
+import org.technocracy.spacestation.registry.components.ModComponents;
 import org.technocracy.spacestation.system.ActionTimer;
 import org.technocracy.spacestation.world.ModLootModifiers;
 import org.technocracy.spacestation.world.ModWorldGeneration;

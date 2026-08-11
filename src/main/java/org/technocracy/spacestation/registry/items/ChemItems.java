@@ -7,7 +7,7 @@ import net.minecraft.util.Identifier;
 import org.technocracy.spacestation.SpaceStation;
 import org.technocracy.spacestation.chemistry.ChemContainer;
 import org.technocracy.spacestation.chemistry.ChemData;
-import org.technocracy.spacestation.chemistry.ModComponents;
+import org.technocracy.spacestation.registry.components.ModComponents;
 
 public final class ChemItems {
 

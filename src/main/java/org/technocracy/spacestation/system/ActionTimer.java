@@ -9,6 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 import java.util.function.Consumer;
+import java.util.function.Predicate;
 
 public class ActionTimer {
 
@@ -18,7 +19,8 @@ public class ActionTimer {
             int totalTicks,
             int remainingTicks,
             Consumer<PlayerEntity> onComplete,
-            boolean isDisassembly
+            boolean isDisassembly,
+            Predicate<PlayerEntity> canContinue
     ) {}
 
     private static final Map<UUID, ActiveAction> ACTIVE = new HashMap<>();
@@ -26,9 +28,15 @@ public class ActionTimer {
     public static void start(ServerPlayerEntity player, BlockPos pos,
                              float seconds, boolean isDisassembly,
                              Consumer<PlayerEntity> onComplete) {
+        start(player, pos, seconds, isDisassembly, onComplete, p -> true);
+    }
+    public static void start(ServerPlayerEntity player, BlockPos pos,
+                             float seconds, boolean isDisassembly,
+                             Consumer<PlayerEntity> onComplete,
+                             Predicate<PlayerEntity> canContinue) {
         int ticks = Math.round(seconds * 20);
         ACTIVE.put(player.getUuid(), new ActiveAction(
-                pos, player.getPos(), ticks, ticks, onComplete, isDisassembly
+                pos, player.getPos(), ticks, ticks, onComplete, isDisassembly, canContinue
         ));
         ModPackets.sendTimerStart(player, ticks, isDisassembly);
     }
@@ -45,13 +53,12 @@ public class ActionTimer {
         ActiveAction action = ACTIVE.get(uuid);
         if (action == null) return;
 
-        if (player.getPos().distanceTo(action.startPos()) > 0.2) {
+        if (!action.canContinue().test(player)) {
             cancel(player);
             return;
         }
 
-        if (player.getWorld().getBlockState(action.pos()).getBlock()
-                != player.getWorld().getBlockState(action.pos()).getBlock()) {
+        if (player.getPos().distanceTo(action.startPos()) > 0.2) {
             cancel(player);
             return;
         }
@@ -65,7 +72,7 @@ public class ActionTimer {
         } else {
             ACTIVE.put(uuid, new ActiveAction(
                     action.pos(), action.startPos(), action.totalTicks(),
-                    remaining, action.onComplete(), action.isDisassembly()
+                    remaining, action.onComplete(), action.isDisassembly(), action.canContinue()
             ));
         }
     }

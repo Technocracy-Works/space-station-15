@@ -152,5 +152,7 @@
   "item.spacestation.uranium_ore": "Урановая Руда",
   "item.spacestation.welder": "Сварка",
   "item.spacestation.wrench": "Гаечный Ключ",
-  "subtitles.spacestation.plushie.squeak": "Плюшка Пищит"
+  "subtitles.spacestation.plushie.squeak": "Плюшка Пищит",
+  "tooltip.spacestation.tool": "Этот предмет можно использовать чтобы совершать§e %s.",
+  "tooltip.spacestation.charge": "Топливо: %s"
 }
