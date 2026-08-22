@@ -42,6 +42,7 @@ public final class ModItemGroups {
 
                         // ======== FOOD ========
                         entries.add(FoodItems.BANANIUM);
+                        entries.add(FoodItems.BOWL_BIG);
                         entries.add(FoodItems.BUN);
                         entries.add(FoodItems.BUN_BOTTOM);
                         entries.add(FoodItems.BUN_TOP);
@@ -55,6 +56,8 @@ public final class ModItemGroups {
                         entries.add(FoodItems.CROISSANT_RAW);
                         entries.add(FoodItems.CUTLET_COOKED);
                         entries.add(FoodItems.CUTLET_RAW);
+                        entries.add(FoodItems.MEATBALL);
+                        entries.add(FoodItems.MEATBALL_COOKED);
                         entries.add(FoodItems.PIZZA_MARGHERITA);
                         entries.add(FoodItems.PIZZA_MARGHERITA_RAW);
                         entries.add(FoodItems.PIZZA_MARGHERITA_SLICE);
@@ -67,6 +70,8 @@ public final class ModItemGroups {
                         entries.add(FoodItems.PIZZA_PINEAPPLE);
                         entries.add(FoodItems.PIZZA_PINEAPPLE_RAW);
                         entries.add(FoodItems.PIZZA_PINEAPPLE_SLICE);
+                        entries.add(FoodItems.SALAD_HERB);
+                        entries.add(FoodItems.SALAD_VALID);
                         entries.add(FoodItems.SAUSAGE_BREAD);
                         entries.add(FoodItems.SAUSAGE_BREAD_RAW);
                         entries.add(FoodItems.SAUSAGE_BREAD_SLICE);

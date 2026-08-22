@@ -171,5 +171,12 @@ Licenses of borrowed assets are down below
 `CC-BY-NC-SA-3.0` Taken from skyrat-tg at https://github.com/Skyrat-SS13/Skyrat-tg/commit/31156a1fcd48d67a717e7b63c11513172b28eeb1
 - src/main/resources/assets/spacestation/textures/item/tool/welder.png
 
+`CC-BY-SA-3.0` Taken from tgstation and modified by Swept at https://github.com/tgstation/tgstation/commit/40d75cc340c63582fb66ce15bf75a36115f6bdaa. escargot from tgstation at https://github.com/tgstation/tgstation/commit/7ffd61b6fa6a6183daa8900f9a490f46f7a81955. Fills created by potato1234_x
+- src/main/resources/assets/spacestation/textures/item/food/bowl/*
+
+`CC-BY-SA-3.0` Taken from tgstation and modified by Swept, potato1234x and deltanedas at https://github.com/tgstation/tgstation/commit/40d75cc340c63582fb66ce15bf75a36115f6bdaa, snail by IproduceWidgets (github) and Kezu (discord), anomalymeat/cooked by august-sun, dragoncutlet, dragoncutlet_veins, dragoncutlet-cooked and dragon-cooked by JuneSzalkowska (discord), raw and cooked patty taken from tgstation at https://github.com/tgstation/tgstation/commit/b83c7deee4c91df4de130db242facce20308aa8a. A lot of inhands by Orsoniks.
+- src/main/resources/assets/spacestation/textures/item/food/meat/*
+- EXCEPT: cutlet_meat.png and cutlet_raw.png
+
 `CC-BY-SA-3.0` 
 - 

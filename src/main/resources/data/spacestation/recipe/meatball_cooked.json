@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "spacestation:meatball"
+  },
+  "result": {
+    "id": "spacestation:meatball_cooked"
+  },
+  "experience": 0.15,
+  "cookingtime": 200
+}

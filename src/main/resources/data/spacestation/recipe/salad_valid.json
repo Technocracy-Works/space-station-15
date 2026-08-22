@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "spacestation:bowl_big" },
+    { "item": "spacestation:ambrosia" },
+    { "item": "spacestation:meatball_cooked" },
+    { "item": "minecraft:potato" }
+  ],
+  "result": {
+    "id": "spacestation:salad_valid",
+    "count": 1
+  }
+}

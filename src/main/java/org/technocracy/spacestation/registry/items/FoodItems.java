@@ -19,6 +19,11 @@ public final class FoodItems {
                     .build()))
     );
 
+    public static final Item BOWL_BIG =     Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "bowl_big"),
+            new Item(new Item.Settings()));
+
+
     public static final Item BUN = Registry.register(
             Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "bun"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
@@ -81,6 +86,20 @@ public final class FoodItems {
                     .nutrition(2).saturationModifier(0.3f).build()))
     );
 
+    public static final Item MEATBALL = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "meatball"),
+            new Item(new Item.Settings().food(new FoodComponent.Builder()
+                    .nutrition(2).saturationModifier(0.1f)
+                    .statusEffect(new StatusEffectInstance(StatusEffects.POISON, 220, 0), 0.2f)
+                    .build()))
+    );
+
+    public static final Item MEATBALL_COOKED = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "meatball_cooked"),
+            new Item(new Item.Settings().food(new FoodComponent.Builder()
+                    .nutrition(4).saturationModifier(0.8f).build()))
+    );
+
     public static final Item SAUSAGE_BREAD = Registry.register(
             Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "sausage_bread"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
@@ -129,7 +148,7 @@ public final class FoodItems {
                     .nutrition(1).saturationModifier(0.2f).build()))
     );
 
-    // Пицца
+    // Pizza
     public static final Item PIZZA_MEAT_RAW = Registry.register(
             Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_meat_raw"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
@@ -201,6 +220,22 @@ public final class FoodItems {
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(2).saturationModifier(1.5f).build()))
     );
+
+    // Salads
+
+    public static final Item SALAD_HERB = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "salad_herb"),
+            new Item(new Item.Settings().food(new FoodComponent.Builder()
+                    .nutrition(5).saturationModifier(1.5f).usingConvertsTo(BOWL_BIG).build()).maxCount(1))
+    );
+
+    public static final Item SALAD_VALID = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "salad_valid"),
+            new Item(new Item.Settings().food(new FoodComponent.Builder()
+                    .nutrition(5).saturationModifier(1.5f).usingConvertsTo(BOWL_BIG).build()).maxCount(1))
+    );
+
+
 
     private FoodItems() {}
 
