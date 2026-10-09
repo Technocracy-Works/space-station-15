@@ -42,6 +42,7 @@ public class SpaceStation implements ModInitializer {
         ModLootModifiers.register();
         ModPackets.register();
         MutationRegistry.register();
+        ModEffects.register();
         PayloadTypeRegistry.playC2S().register(ModPackets.ChemMovePayload.ID, ModPackets.ChemMovePayload.CODEC);
 
         FuelRegistry.INSTANCE.add(MiscItems.SOLID_FUEL, 500); // Регистрация кастомного топлива
