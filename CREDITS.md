@@ -17,6 +17,7 @@ Vielen Dank an alle, die zu diesem Projekt beigetragen haben ❤️
 - @Sospurnak
 - @JrInventor05
 - @loksill
+- @MartynDew
 ## Artwork / Sprites
 
 - @Dead-Wasp
@@ -47,6 +48,7 @@ Vielen Dank an alle, die zu diesem Projekt beigetragen haben ❤️
 - @JrInventor05
 - @AsnDen
 - @loksill
+- @MartynDew
 ## Other
 - @Swino4ka
 - @AsnDen
