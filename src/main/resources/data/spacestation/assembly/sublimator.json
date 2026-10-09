@@ -1,0 +1,14 @@
+{
+  "source": "spacestation:machine_frame_assembled",
+  "result": "spacestation:sublimator",
+  "cost": 1,
+  "assembly_time": 0.4,
+  "disassembly_time": 1.2,
+  "assembly_tool": {
+    "items": ["spacestation:assembly_kit_sublimator"]
+  },
+  "disassembly_tool": {
+    "items": ["spacestation:omnitool"],
+    "qualities": ["SCREWING"]
+  }
+}

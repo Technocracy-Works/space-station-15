@@ -264,6 +264,7 @@ public final class ModItemGroups {
 
                         // ======== MISC ========
                         entries.add(MiscItems.ASSEMBLY_KIT_CM);
+                        entries.add(MiscItems.ASSEMBLY_KIT_SUBLIMATOR);
                         entries.add(MiscItems.BANANIUM);
                         entries.add(MiscItems.BANANIUM_ORE);
                         entries.add(MiscItems.BLOODY_RED_BALLISTIC_PLATE);

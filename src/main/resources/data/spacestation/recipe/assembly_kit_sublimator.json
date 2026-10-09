@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "CUC",
+    "SSS"
+  ],
+  "key": {
+    "S": { "tag": "spacestation:steel" },
+    "P": { "tag": "spacestation:plasteel" },
+    "U": { "tag": "spacestation:uranium" },
+    "C": { "tag": "spacestation:circuit_base" }
+  },
+  "result": {
+    "id": "spacestation:assembly_kit_sublimator",
+    "count": 1
+  }
+}
