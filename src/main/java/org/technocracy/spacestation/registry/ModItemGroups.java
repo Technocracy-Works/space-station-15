@@ -60,7 +60,7 @@ public final class ModItemGroups {
             Registries.ITEM_GROUP,
             Identifier.of(SpaceStation.MOD_ID, "food"),
             FabricItemGroup.builder()
-                    .icon(() -> new ItemStack(FoodItems.BREAD_SAUSAGE))
+                    .icon(() -> new ItemStack(FoodItems.BREAD_SAUSAGE_COOKED))
                     .displayName(Text.translatable("itemGroup.spacestation.food"))
                     .entries((context, entries) -> {
                         // ======== FOOD ========
@@ -108,8 +108,8 @@ public final class ModItemGroups {
                         entries.add(FoodItems.PIZZA_VEGETABLE_SLICE);
                         entries.add(FoodItems.SALAD_HERB);
                         entries.add(FoodItems.SALAD_VALID);
+                        entries.add(FoodItems.BREAD_SAUSAGE_COOKED);
                         entries.add(FoodItems.BREAD_SAUSAGE);
-                        entries.add(FoodItems.BREAD_SAUSAGE_RAW);
                         entries.add(FoodItems.BREAD_SAUSAGE_SLICE);
                         entries.add(FoodItems.SOUP_BUNGO);
                         entries.add(FoodItems.SOUP_NETTLE);

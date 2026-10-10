@@ -6,7 +6,7 @@
     { "item": "spacestation:cutlet" }
   ],
   "result": {
-    "id": "spacestation:bread_sausage_raw",
+    "id": "spacestation:bread_sausage",
     "count": 1
   }
 }

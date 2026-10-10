@@ -207,14 +207,14 @@ public final class FoodItems {
                     .nutrition(2).saturationModifier(0.3f).build()))
     );
 
-    public static final Item BREAD_SAUSAGE = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "bread_sausage"),
+    public static final Item BREAD_SAUSAGE_COOKED = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "bread_sausage_cooked"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(7).saturationModifier(0.9f).build()))
     );
 
-    public static final Item BREAD_SAUSAGE_RAW = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "bread_sausage_raw"),
+    public static final Item BREAD_SAUSAGE = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "bread_sausage"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(3).saturationModifier(0.3f)
                     .statusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 100, 0), 0.25f)
