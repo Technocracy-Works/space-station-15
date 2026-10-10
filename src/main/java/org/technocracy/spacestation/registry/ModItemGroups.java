@@ -100,8 +100,8 @@ public final class ModItemGroups {
                         entries.add(FoodItems.PIZZA_MUSHROOM);
                         entries.add(FoodItems.PIZZA_MUSHROOM_RAW);
                         entries.add(FoodItems.PIZZA_MUSHROOM_SLICE);
+                        entries.add(FoodItems.PIZZA_PINEAPPLE_COOKED);
                         entries.add(FoodItems.PIZZA_PINEAPPLE);
-                        entries.add(FoodItems.PIZZA_PINEAPPLE_RAW);
                         entries.add(FoodItems.PIZZA_PINEAPPLE_SLICE);
                         entries.add(FoodItems.PIZZA_VEGETABLE);
                         entries.add(FoodItems.PIZZA_VEGETABLE_RAW);
