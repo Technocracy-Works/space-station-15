@@ -33,17 +33,6 @@ public final class PlantItems {
             new AliasedBlockItem(PlantBlocks.AMBROSIA_OLYMPIC_CROP, new Item.Settings())
     );
 
-    public static final Item BLOOD_TOMATO = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "blood_tomato"),
-            new Item(new Item.Settings().food(new FoodComponent.Builder()
-                    .nutrition(6).saturationModifier(9.6f).build()))
-    );
-
-    public static final Item BLOOD_TOMATO_SEEDS = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "blood_tomato_seeds"),
-            new AliasedBlockItem(PlantBlocks.BLOOD_TOMATO_CROP, new Item.Settings())
-    );
-
     public static final Item BLOONION        = register("bloonion");
 
     public static final Item BLOONION_SEEDS = Registry.register(
@@ -286,6 +275,16 @@ public final class PlantItems {
             new AliasedBlockItem(PlantBlocks.TOMATO_CROP, new Item.Settings())
     );
 
+    public static final Item TOMATO_BLOOD = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "tomato_blood"),
+            new Item(new Item.Settings().food(new FoodComponent.Builder()
+                    .nutrition(6).saturationModifier(9.6f).build()))
+    );
+
+    public static final Item TOMATO_BLOOD_SEEDS = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "tomato_blood_seeds"),
+            new AliasedBlockItem(PlantBlocks.TOMATO_BLOOD_CROP, new Item.Settings())
+    );
 
     public static final Item TOWERCAP_SEEDS = Registry.register(
             Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "towercap_seeds"),

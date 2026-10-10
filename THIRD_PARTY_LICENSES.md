@@ -43,7 +43,7 @@ Licenses of borrowed assets are down below
 - src/main/resources/assets/spacestation/textures/block/plant/ambrosia_olympic
 
 `CC-BY-SA-3.0` Taken from https://github.com/vgstation-coders/vgstation13 at 1dbcf389b0ec6b2c51b002df5fef8dd1519f8068, inhands by mubururu_ (github), Growth stages, harvest, dead, and produce sprites created by Chaoticaa (GitHub), inhands modified by Prole0 (GitHub)
-- src/main/resources/assets/spacestation/textures/block/plant/blood_tomato
+- src/main/resources/assets/spacestation/textures/block/plant/tomato_blood
 
 `CC0-1.0` Made by Thinbug for space station 14 :33
 - src/main/resources/assets/spacestation/textures/item/plant/bloonion
