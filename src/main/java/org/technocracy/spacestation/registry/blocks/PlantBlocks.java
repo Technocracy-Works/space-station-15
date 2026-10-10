@@ -47,15 +47,6 @@ public class PlantBlocks {
             )
     );
 
-    public static final Block BLUE_TOMATO_CROP = Registry.register(
-            Registries.BLOCK,
-            Identifier.of(SpaceStation.MOD_ID, "blue_tomato_crop"),
-            new SimpleCropBlock(
-                    AbstractBlock.Settings.copy(Blocks.WHEAT).nonOpaque().ticksRandomly(),
-                    () -> PlantItems.BLUE_TOMATO_SEEDS
-            )
-    );
-
     public static final Block BUNGO_CROP = Registry.register(
             Registries.BLOCK,
             Identifier.of(SpaceStation.MOD_ID, "bungo_crop"),
@@ -269,6 +260,15 @@ public class PlantBlocks {
             new SimpleCropBlock(
                     AbstractBlock.Settings.copy(Blocks.WHEAT).nonOpaque().ticksRandomly(),
                     () -> PlantItems.TOMATO_BLOOD_SEEDS
+            )
+    );
+
+    public static final Block TOMATO_BLUE_CROP = Registry.register(
+            Registries.BLOCK,
+            Identifier.of(SpaceStation.MOD_ID, "tomato_blue_crop"),
+            new SimpleCropBlock(
+                    AbstractBlock.Settings.copy(Blocks.WHEAT).nonOpaque().ticksRandomly(),
+                    () -> PlantItems.TOMATO_BLUE_SEEDS
             )
     );
 

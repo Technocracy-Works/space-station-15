@@ -50,8 +50,8 @@ Licenses of borrowed assets are down below
 - src/main/resources/assets/spacestation/textures/block/plant/bloonion
 
 `CC-BY-SA-3.0` Taken from https://github.com/vgstation-coders/vgstation13 at 1dbcf389b0ec6b2c51b002df5fef8dd1519f8068, inhands by mubururu_ (github), Growth stages, harvest, dead, and produce sprites created by Chaoticaa (GitHub), inhands modified by Prole0 (GitHub)
-- src/main/resources/assets/spacestation/textures/item/plant/blue_tomato
-- src/main/resources/assets/spacestation/textures/block/plant/blue_tomato
+- src/main/resources/assets/spacestation/textures/item/plant/tomato_blue
+- src/main/resources/assets/spacestation/textures/block/plant/tomato_blue
 
 `CC-BY-SA-3.0` Taken from tgstation: https://github.com/tgstation/tgstation/commit/b3399ffe39f9ace645123c98323c4832412cc641
 - src/main/resources/assets/spacestation/textures/item/plant/bungo

@@ -18,7 +18,7 @@
       "type": "transform",
       "weight": 1,
       "blocks": [
-        { "block": "spacestation:blue_tomato_crop", "weight": 1 },
+        { "block": "spacestation:tomato_blue_crop", "weight": 1 },
         { "block": "spacestation:tomato_blood_crop", "weight": 1 }
       ]
     }
