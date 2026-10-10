@@ -79,8 +79,8 @@ public final class ModItemGroups {
                         entries.add(FoodItems.CHEESE_WEDGE_FRESH);
                         entries.add(FoodItems.CHEESE_WHEEL);
                         entries.add(FoodItems.CHEESE_WHEEL_FRESH);
+                        entries.add(FoodItems.CROISSANT_COOKED);
                         entries.add(FoodItems.CROISSANT);
-                        entries.add(FoodItems.CROISSANT_RAW);
                         entries.add(FoodItems.CUTLET_COOKED);
                         entries.add(FoodItems.CUTLET);
                         entries.add(FoodItems.DOUGH);

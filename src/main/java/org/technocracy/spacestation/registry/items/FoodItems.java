@@ -145,14 +145,14 @@ public final class FoodItems {
                     .nutrition(5).saturationModifier(0.8f).build()))
     );
 
-    public static final Item CROISSANT = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "croissant"),
+    public static final Item CROISSANT_COOKED = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "croissant_cooked"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(5).saturationModifier(0.7f).build()))
     );
 
-    public static final Item CROISSANT_RAW = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "croissant_raw"),
+    public static final Item CROISSANT = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "croissant"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(2).saturationModifier(0.2f).build()))
     );
