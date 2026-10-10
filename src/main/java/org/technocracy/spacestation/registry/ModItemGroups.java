@@ -117,8 +117,8 @@ public final class ModItemGroups {
                         entries.add(FoodItems.SOUP_PEA);
                         entries.add(FoodItems.SOUP_TOMATO_BLOOD);
                         entries.add(FoodItems.SPAGHETTI);
+                        entries.add(FoodItems.BREAD_MEAT_COOKED);
                         entries.add(FoodItems.BREAD_MEAT);
-                        entries.add(FoodItems.BREAD_MEAT_RAW);
                         entries.add(FoodItems.BREAD_MEAT_SLICE);
                     })
                     .build()

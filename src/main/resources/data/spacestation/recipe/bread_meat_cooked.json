@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "spacestation:bread_meat"
+  },
+  "result": {
+    "id": "spacestation:bread_meat_cooked"
+  },
+  "experience": 0.10,
+  "cookingtime": 200
+}
