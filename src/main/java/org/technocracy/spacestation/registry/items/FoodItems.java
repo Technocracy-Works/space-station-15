@@ -261,14 +261,14 @@ public final class FoodItems {
     // =============== PIZZA ===============
     //
 
-    public static final Item PIZZA_MEAT_RAW = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_meat_raw"),
+    public static final Item PIZZA_MEAT = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_meat"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(2).saturationModifier(0.3f).build()).maxCount(1))
     );
 
-    public static final Item PIZZA_MEAT = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_meat"),
+    public static final Item PIZZA_MEAT_COOKED = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_meat_cooked"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(16).saturationModifier(1.6f).build()).maxCount(1))
     );

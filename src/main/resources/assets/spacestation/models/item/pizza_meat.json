@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "spacestation:item/food/pizza/meat/cooked"
+    "layer0": "spacestation:item/food/pizza/meat/raw"
   },
   "display": {
     "firstperson_righthand": {

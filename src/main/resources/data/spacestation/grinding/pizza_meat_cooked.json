@@ -1,4 +1,4 @@
 {
-  "ingredient": "spacestation:pizza_meat",
+  "ingredient": "spacestation:pizza_meat_cooked",
   "results": { "water": 5.0, "protein": 3.0, "starch": 5.0, "fat": 5.0 }
 }
