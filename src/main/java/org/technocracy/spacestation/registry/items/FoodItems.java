@@ -131,8 +131,8 @@ public final class FoodItems {
                     .build()))
     );
 
-    public static final Item CUTLET_RAW = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "cutlet_raw"),
+    public static final Item CUTLET = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "cutlet"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(2).saturationModifier(0.2f)
                     .statusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 100, 0), 0.25f)
@@ -145,14 +145,14 @@ public final class FoodItems {
                     .nutrition(5).saturationModifier(0.8f).build()))
     );
 
-    public static final Item CROISSANT = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "croissant"),
+    public static final Item CROISSANT_COOKED = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "croissant_cooked"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(5).saturationModifier(0.7f).build()))
     );
 
-    public static final Item CROISSANT_RAW = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "croissant_raw"),
+    public static final Item CROISSANT = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "croissant"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(2).saturationModifier(0.2f).build()))
     );
@@ -175,14 +175,14 @@ public final class FoodItems {
     // =============== BREAD ===============
     //
 
-    public static final Item BREAD_MEAT = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "bread_meat"),
+    public static final Item BREAD_MEAT_COOKED = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "bread_meat_cooked"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(6).saturationModifier(0.8f).build()))
     );
 
-    public static final Item BREAD_MEAT_RAW = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "bread_meat_raw"),
+    public static final Item BREAD_MEAT = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "bread_meat"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(3).saturationModifier(0.3f)
                     .statusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 100, 0), 0.25f)
@@ -207,14 +207,14 @@ public final class FoodItems {
                     .nutrition(2).saturationModifier(0.3f).build()))
     );
 
-    public static final Item BREAD_SAUSAGE = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "bread_sausage"),
+    public static final Item BREAD_SAUSAGE_COOKED = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "bread_sausage_cooked"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(7).saturationModifier(0.9f).build()))
     );
 
-    public static final Item BREAD_SAUSAGE_RAW = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "bread_sausage_raw"),
+    public static final Item BREAD_SAUSAGE = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "bread_sausage"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(3).saturationModifier(0.3f)
                     .statusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 100, 0), 0.25f)
@@ -261,14 +261,14 @@ public final class FoodItems {
     // =============== PIZZA ===============
     //
 
-    public static final Item PIZZA_MEAT_RAW = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_meat_raw"),
+    public static final Item PIZZA_MEAT = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_meat"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(2).saturationModifier(0.3f).build()).maxCount(1))
     );
 
-    public static final Item PIZZA_MEAT = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_meat"),
+    public static final Item PIZZA_MEAT_COOKED = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_meat_cooked"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(16).saturationModifier(1.6f).build()).maxCount(1))
     );
@@ -279,14 +279,14 @@ public final class FoodItems {
                     .nutrition(2).saturationModifier(0.2f).build()))
     );
 
-    public static final Item PIZZA_PINEAPPLE_RAW = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_pineapple_raw"),
+    public static final Item PIZZA_PINEAPPLE = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_pineapple"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(2).saturationModifier(0.3f).build()))
     );
 
-    public static final Item PIZZA_PINEAPPLE = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_pineapple"),
+    public static final Item PIZZA_PINEAPPLE_COOKED = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_pineapple_cooked"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(14).saturationModifier(1.4f).build()))
     );
@@ -297,14 +297,14 @@ public final class FoodItems {
                     .nutrition(2).saturationModifier(0.2f).build()))
     );
 
-    public static final Item PIZZA_MARGHERITA_RAW = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_margherita_raw"),
+    public static final Item PIZZA_MARGHERITA = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_margherita"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(2).saturationModifier(0.3f).build()))
     );
 
-    public static final Item PIZZA_MARGHERITA = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_margherita"),
+    public static final Item PIZZA_MARGHERITA_COOKED = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_margherita_cooked"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(14).saturationModifier(1.6f).build()))
     );
@@ -315,14 +315,14 @@ public final class FoodItems {
                     .nutrition(2).saturationModifier(0.2f).build()))
     );
 
-    public static final Item PIZZA_MUSHROOM_RAW = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_mushroom_raw"),
+    public static final Item PIZZA_MUSHROOM = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_mushroom"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(2).saturationModifier(0.3f).build()).maxCount(1))
     );
 
-    public static final Item PIZZA_MUSHROOM = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_mushroom"),
+    public static final Item PIZZA_MUSHROOM_COOKED = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_mushroom_cooked"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(16).saturationModifier(1.6f).build()).maxCount(1))
     );
@@ -333,14 +333,14 @@ public final class FoodItems {
                     .nutrition(2).saturationModifier(0.2f).build()))
     );
 
-    public static final Item PIZZA_VEGETABLE_RAW = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_vegetable_raw"),
+    public static final Item PIZZA_VEGETABLE = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_vegetable"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(2).saturationModifier(0.3f).build()).maxCount(1))
     );
 
-    public static final Item PIZZA_VEGETABLE = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_vegetable"),
+    public static final Item PIZZA_VEGETABLE_COOKED = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_vegetable_cooked"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(14).saturationModifier(1.4f).build()).maxCount(1))
     );

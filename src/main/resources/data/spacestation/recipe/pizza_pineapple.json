@@ -1,11 +1,17 @@
 {
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "spacestation:pizza_pineapple_raw"
-  },
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "spacestation:dough_flat" },
+    { "item": "spacestation:cutlet" },
+    { "item": "spacestation:cutlet" },
+    { "item": "spacestation:pineapple" },
+    { "item": "spacestation:pineapple" },
+    { "item": "spacestation:pineapple" },
+    { "item": "spacestation:pineapple" },
+    { "item": "spacestation:pineapple" }
+  ],
   "result": {
-    "id": "spacestation:pizza_pineapple"
-  },
-  "experience": 0.15,
-  "cookingtime": 500
+    "id": "spacestation:pizza_pineapple",
+    "count": 1
+  }
 }

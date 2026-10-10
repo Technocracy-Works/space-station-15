@@ -1,11 +1,15 @@
 {
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "spacestation:pizza_margherita_raw"
-  },
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "spacestation:dough_flat" },
+    { "item": "spacestation:cheese_wedge" },
+    { "item": "spacestation:tomato" },
+    { "item": "spacestation:tomato" },
+    { "item": "spacestation:tomato" },
+    { "item": "spacestation:tomato" }
+  ],
   "result": {
-    "id": "spacestation:pizza_margherita"
-  },
-  "experience": 0.15,
-  "cookingtime": 500
+    "id": "spacestation:pizza_margherita",
+    "count": 1
+  }
 }

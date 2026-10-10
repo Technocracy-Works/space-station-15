@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     { "item": "spacestation:dough" },
-    { "item": "spacestation:cutlet_raw" },
-    { "item": "spacestation:cutlet_raw" }
+    { "item": "spacestation:cutlet" },
+    { "item": "spacestation:cutlet" }
   ],
   "result": {
-    "id": "spacestation:bread_sausage_raw",
+    "id": "spacestation:bread_sausage",
     "count": 1
   }
 }

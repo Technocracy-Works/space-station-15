@@ -1,11 +1,11 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    { "item": "spacestation:bread_sausage" },
+    { "item": "minecraft:beef" },
     { "tag": "spacestation:knives" }
   ],
   "result": {
-    "id": "spacestation:bread_sausage_slice",
+    "id": "spacestation:cutlet",
     "count": 3
   }
 }

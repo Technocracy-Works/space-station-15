@@ -60,7 +60,7 @@ public final class ModItemGroups {
             Registries.ITEM_GROUP,
             Identifier.of(SpaceStation.MOD_ID, "food"),
             FabricItemGroup.builder()
-                    .icon(() -> new ItemStack(FoodItems.BREAD_SAUSAGE))
+                    .icon(() -> new ItemStack(FoodItems.BREAD_SAUSAGE_COOKED))
                     .displayName(Text.translatable("itemGroup.spacestation.food"))
                     .entries((context, entries) -> {
                         // ======== FOOD ========
@@ -79,10 +79,10 @@ public final class ModItemGroups {
                         entries.add(FoodItems.CHEESE_WEDGE_FRESH);
                         entries.add(FoodItems.CHEESE_WHEEL);
                         entries.add(FoodItems.CHEESE_WHEEL_FRESH);
+                        entries.add(FoodItems.CROISSANT_COOKED);
                         entries.add(FoodItems.CROISSANT);
-                        entries.add(FoodItems.CROISSANT_RAW);
                         entries.add(FoodItems.CUTLET_COOKED);
-                        entries.add(FoodItems.CUTLET_RAW);
+                        entries.add(FoodItems.CUTLET);
                         entries.add(FoodItems.DOUGH);
                         entries.add(FoodItems.DOUGH_CORN);
                         entries.add(FoodItems.DOUGH_FLAT);
@@ -91,25 +91,25 @@ public final class ModItemGroups {
                         entries.add(FoodItems.FLOUR_CORN);
                         entries.add(FoodItems.MEATBALL);
                         entries.add(FoodItems.MEATBALL_COOKED);
+                        entries.add(FoodItems.PIZZA_MARGHERITA_COOKED);
                         entries.add(FoodItems.PIZZA_MARGHERITA);
-                        entries.add(FoodItems.PIZZA_MARGHERITA_RAW);
                         entries.add(FoodItems.PIZZA_MARGHERITA_SLICE);
+                        entries.add(FoodItems.PIZZA_MEAT_COOKED);
                         entries.add(FoodItems.PIZZA_MEAT);
-                        entries.add(FoodItems.PIZZA_MEAT_RAW);
                         entries.add(FoodItems.PIZZA_MEAT_SLICE);
+                        entries.add(FoodItems.PIZZA_MUSHROOM_COOKED);
                         entries.add(FoodItems.PIZZA_MUSHROOM);
-                        entries.add(FoodItems.PIZZA_MUSHROOM_RAW);
                         entries.add(FoodItems.PIZZA_MUSHROOM_SLICE);
+                        entries.add(FoodItems.PIZZA_PINEAPPLE_COOKED);
                         entries.add(FoodItems.PIZZA_PINEAPPLE);
-                        entries.add(FoodItems.PIZZA_PINEAPPLE_RAW);
                         entries.add(FoodItems.PIZZA_PINEAPPLE_SLICE);
+                        entries.add(FoodItems.PIZZA_VEGETABLE_COOKED);
                         entries.add(FoodItems.PIZZA_VEGETABLE);
-                        entries.add(FoodItems.PIZZA_VEGETABLE_RAW);
                         entries.add(FoodItems.PIZZA_VEGETABLE_SLICE);
                         entries.add(FoodItems.SALAD_HERB);
                         entries.add(FoodItems.SALAD_VALID);
+                        entries.add(FoodItems.BREAD_SAUSAGE_COOKED);
                         entries.add(FoodItems.BREAD_SAUSAGE);
-                        entries.add(FoodItems.BREAD_SAUSAGE_RAW);
                         entries.add(FoodItems.BREAD_SAUSAGE_SLICE);
                         entries.add(FoodItems.SOUP_BUNGO);
                         entries.add(FoodItems.SOUP_NETTLE);
@@ -117,8 +117,8 @@ public final class ModItemGroups {
                         entries.add(FoodItems.SOUP_PEA);
                         entries.add(FoodItems.SOUP_TOMATO_BLOOD);
                         entries.add(FoodItems.SPAGHETTI);
+                        entries.add(FoodItems.BREAD_MEAT_COOKED);
                         entries.add(FoodItems.BREAD_MEAT);
-                        entries.add(FoodItems.BREAD_MEAT_RAW);
                         entries.add(FoodItems.BREAD_MEAT_SLICE);
                     })
                     .build()
