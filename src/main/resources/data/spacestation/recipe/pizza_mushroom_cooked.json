@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "spacestation:pizza_mushroom"
+  },
+  "result": {
+    "id": "spacestation:pizza_mushroom_cooked"
+  },
+  "experience": 0.15,
+  "cookingtime": 500
+}

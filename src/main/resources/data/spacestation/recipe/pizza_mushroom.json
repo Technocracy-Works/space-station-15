@@ -1,11 +1,16 @@
 {
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "spacestation:pizza_mushroom_raw"
-  },
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "spacestation:dough_flat" },
+    { "item": "spacestation:cheese_wedge" },
+    { "item": "minecraft:brown_mushroom" },
+    { "item": "minecraft:brown_mushroom" },
+    { "item": "minecraft:brown_mushroom" },
+    { "item": "minecraft:red_mushroom" },
+    { "item": "minecraft:red_mushroom" }
+  ],
   "result": {
-    "id": "spacestation:pizza_mushroom"
-  },
-  "experience": 0.15,
-  "cookingtime": 500
+    "id": "spacestation:pizza_mushroom",
+    "count": 1
+  }
 }
