@@ -139,12 +139,8 @@ public final class ModItemGroups {
                         entries.add(PlantItems.AMBROSIA_SEEDS);
                         entries.add(PlantItems.AMBROSIA_OLYMPIC);
                         entries.add(PlantItems.AMBROSIA_OLYMPIC_SEEDS);
-                        entries.add(PlantItems.BLOOD_TOMATO);
-                        entries.add(PlantItems.BLOOD_TOMATO_SEEDS);
                         entries.add(PlantItems.BLOONION);
                         entries.add(PlantItems.BLOONION_SEEDS);
-                        entries.add(PlantItems.BLUE_TOMATO);
-                        entries.add(PlantItems.BLUE_TOMATO_SEEDS);
                         entries.add(PlantItems.BUNGO);
                         entries.add(PlantItems.BUNGO_SEEDS);
                         entries.add(PlantItems.CABBAGE);
@@ -191,6 +187,10 @@ public final class ModItemGroups {
                         entries.add(PlantItems.SOYBEANS_SEEDS);
                         entries.add(PlantItems.TOMATO);
                         entries.add(PlantItems.TOMATO_SEEDS);
+                        entries.add(PlantItems.TOMATO_BLOOD);
+                        entries.add(PlantItems.TOMATO_BLOOD_SEEDS);
+                        entries.add(PlantItems.TOMATO_BLUE);
+                        entries.add(PlantItems.TOMATO_BLUE_SEEDS);
                         entries.add(PlantItems.TOWERCAP_SEEDS);
                     })
                     .build()

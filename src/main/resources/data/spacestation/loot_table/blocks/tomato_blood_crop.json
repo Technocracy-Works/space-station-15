@@ -9,13 +9,13 @@
           "conditions": [
             {
               "condition": "minecraft:block_state_property",
-              "block": "spacestation:blue_tomato_crop",
+              "block": "spacestation:tomato_blood_crop",
               "properties": {
                 "age": "7"
               }
             }
           ],
-          "name": "spacestation:blue_tomato",
+          "name": "spacestation:tomato_blood",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -49,20 +49,20 @@
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
-                  "block": "spacestation:blue_tomato_crop",
+                  "block": "spacestation:tomato_blood_crop",
                   "properties": {
                     "age": "7"
                   }
                 }
               ],
-              "name": "spacestation:blue_tomato_seeds",
+              "name": "spacestation:tomato_blood_seeds",
               "functions": [
                 {
                   "function": "minecraft:set_count",
                   "count": {
                     "type": "minecraft:uniform",
                     "min": 0,
-                    "max": 1
+                    "max": 2
                   }
                 },
                 {
@@ -78,7 +78,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "spacestation:blue_tomato_seeds"
+              "name": "spacestation:tomato_blood_seeds"
             }
           ]
         }
