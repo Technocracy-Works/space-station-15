@@ -333,14 +333,14 @@ public final class FoodItems {
                     .nutrition(2).saturationModifier(0.2f).build()))
     );
 
-    public static final Item PIZZA_VEGETABLE_RAW = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_vegetable_raw"),
+    public static final Item PIZZA_VEGETABLE = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_vegetable"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(2).saturationModifier(0.3f).build()).maxCount(1))
     );
 
-    public static final Item PIZZA_VEGETABLE = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_vegetable"),
+    public static final Item PIZZA_VEGETABLE_COOKED = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "pizza_vegetable_cooked"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(14).saturationModifier(1.4f).build()).maxCount(1))
     );

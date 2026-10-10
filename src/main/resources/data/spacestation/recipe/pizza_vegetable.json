@@ -1,11 +1,14 @@
 {
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "spacestation:pizza_vegetable_raw"
-  },
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "spacestation:dough_flat" },
+    { "item": "spacestation:eggplant" },
+    { "item": "spacestation:corn" },
+    { "item": "spacestation:tomato" },
+    { "item": "minecraft:carrot" }
+  ],
   "result": {
-    "id": "spacestation:pizza_vegetable"
-  },
-  "experience": 0.15,
-  "cookingtime": 500
+    "id": "spacestation:pizza_vegetable",
+    "count": 1
+  }
 }
