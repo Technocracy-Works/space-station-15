@@ -17,6 +17,7 @@ import org.technocracy.spacestation.chemistry.ChemData;
 import org.technocracy.spacestation.chemistry.ModScreenHandlers;
 import org.technocracy.spacestation.registry.ModBlocks;
 import org.technocracy.spacestation.registry.ModComponents;
+import org.technocracy.spacestation.registry.blocks.TreeBlocks;
 import org.technocracy.spacestation.registry.items.ChemItems;
 import org.technocracy.spacestation.registry.blocks.PlantBlocks;
 import org.technocracy.spacestation.registry.items.ToolItems;
@@ -78,6 +79,10 @@ public class SpaceStationClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(PlantBlocks.TOMATO_BLOOD_CROP, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(PlantBlocks.TOMATO_BLUE_CROP, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(PlantBlocks.TOWERCAP_CROP, RenderLayer.getCutout());
+
+        // ================ TREES ================
+        BlockRenderLayerMap.INSTANCE.putBlock(TreeBlocks.ORANGE_TREE_LEAVES, RenderLayer.getCutout());
+
         TimerHud.register();
         registerToggleableItem(ToolItems.WELDER);
         registerToggleableItem(ToolItems.LIGHTER);

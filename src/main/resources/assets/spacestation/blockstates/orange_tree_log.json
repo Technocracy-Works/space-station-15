@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "spacestation:block/tree/orange/log"
+    },
+    "axis=x": {
+      "model": "spacestation:block/tree/orange/log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "spacestation:block/tree/orange/log_horizontal",
+      "x": 90
+    }
+  }
+}

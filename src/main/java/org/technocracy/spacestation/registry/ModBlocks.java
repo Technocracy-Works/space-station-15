@@ -18,6 +18,7 @@ import org.technocracy.spacestation.chemistry.sublimator.SublimatorBlock;
 import org.technocracy.spacestation.registry.blocks.PlantBlocks;
 import org.technocracy.spacestation.item.components.ToolIngredient;
 import org.technocracy.spacestation.item.components.ToolQuality;
+import org.technocracy.spacestation.registry.blocks.TreeBlocks;
 import org.technocracy.spacestation.registry.items.*;
 
 import java.util.function.Function;
@@ -242,6 +243,7 @@ public final class ModBlocks {
 
     public static void register() {
         PlantBlocks.register();
+        TreeBlocks.register();
     }
 
     private static <T extends Block> T register(
