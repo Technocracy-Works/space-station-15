@@ -222,6 +222,8 @@
   "item.spacestation.cabbage": "Cabbage",
   "item.spacestation.cabbage_seeds": "Cabbage seeds",
   "item.spacestation.canister": "Canister",
+  "item.spacestation.canister_of": "Canister of %s",
+  "item.spacestation.canister_of_mixture": "Canister of mixture",
   "item.spacestation.cable_lv": "Lov-voltage cable",
   "item.spacestation.cable_hv": "High-voltage cable",
   "item.spacestation.coffee_powder": "Coffee powder",
@@ -368,5 +370,8 @@
   "quality.spacestation.welding": "Welding",
   "quality.spacestation.ignition":  "Ignition",
   "quality.spacestation.prying": "Prying",
-  "quality.spacestation.anchoring": "Anchoring"
+  "quality.spacestation.anchoring": "Anchoring",
+  "death.attack.radiation": "%1$s died of radiation.",
+  "effect.spacestation.radiation": "Radiation",
+  "effect.spacestation.stimulator": "Stimulator"
 }

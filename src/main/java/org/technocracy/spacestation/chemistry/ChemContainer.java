@@ -35,9 +35,9 @@ public class ChemContainer extends Item {
         if (data == null || data.chemicals().isEmpty()) {
             return super.getName(stack);
         }
-
+        String baseKey = this.getTranslationKey(stack);
         if (data.chemicals().size() > 1) {
-            return Text.translatable("item.spacestation.beaker_of_mixture");
+            return Text.translatable(baseKey+"_of_mixture");
         }
 
         String chemical = data.chemicals().keySet().iterator().next();
@@ -45,7 +45,7 @@ public class ChemContainer extends Item {
                 "chem.spacestation." + chemical,
                 chemical
         );
-        return Text.translatable("item.spacestation.beaker_of", chemicalName);
+        return Text.translatable(baseKey+"_of", chemicalName);
     }
 
     @Override

@@ -222,6 +222,8 @@
   "item.spacestation.cabbage": "Капуста",
   "item.spacestation.cabbage_seeds": "Семена капусты",
   "item.spacestation.canister": "Канистра",
+  "item.spacestation.canister_of": "Канистра с %s",
+  "item.spacestation.canister_of_mixture": "Канистра со смесью",
   "item.spacestation.cable_lv": "Низковольтный кабель",
   "item.spacestation.cable_hv": "Высоковольтный кабель",
   "item.spacestation.coffee_powder": "Кофе в порошке",
@@ -368,5 +370,8 @@
   "quality.spacestation.welding": "сварки",
   "quality.spacestation.ignition": "поджигания",
   "quality.spacestation.prying": "монтирования",
-  "quality.spacestation.anchoring": "закрепления"
+  "quality.spacestation.anchoring": "закрепления",
+  "death.attack.radiation": "%1$s погиб от острой лучевой болезни",
+  "effect.spacestation.radiation": "Радиация",
+  "effect.spacestation.stimulator": "Стимулятор"
 }
