@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "spacestation:block/tree/orange/sapling"
+  }
+}
