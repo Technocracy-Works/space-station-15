@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "spacestation:dough_corn"
+  },
+  "result": {
+    "id": "spacestation:bread_corn"
+  }
+}

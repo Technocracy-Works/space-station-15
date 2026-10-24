@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "spacestation:bread_sausage_raw"
+  },
+  "result": {
+    "id": "spacestation:bread_sausage"
+  }
+}
