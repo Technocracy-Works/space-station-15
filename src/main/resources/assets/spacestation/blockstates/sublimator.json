@@ -1,8 +1,8 @@
 {
   "variants": {
-    "facing=north": { "model": "spacestation:block/machines/chem_master/chem_master" },
-    "facing=east": { "model": "spacestation:block/machines/chem_master/chem_master", "y": 90 },
-    "facing=south": { "model": "spacestation:block/machines/chem_master/chem_master", "y": 180 },
-    "facing=west": { "model": "spacestation:block/machines/chem_master/chem_master", "y": 270 }
+    "facing=north": { "model": "spacestation:block/machines/sublimator/sublimator" },
+    "facing=east": { "model": "spacestation:block/machines/sublimator/sublimator", "y": 90 },
+    "facing=south": { "model": "spacestation:block/machines/sublimator/sublimator", "y": 180 },
+    "facing=west": { "model": "spacestation:block/machines/sublimator/sublimator", "y": 270 }
   }
 }
