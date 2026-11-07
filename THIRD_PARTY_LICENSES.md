@@ -62,11 +62,9 @@ Licenses of borrowed assets are down below
 - src/main/resources/assets/spacestation/textures/block/plant/cabbage
 
 `CC-BY-SA-3.0` Taken from https://github.com/vgstation-coders/vgstation13, inhands by mubururu_ (github), Growth stages, harvest, dead, and produce sprites created by Chaoticaa (GitHub), inhands modified by Prole0 (GitHub)
-- src/main/resources/assets/spacestation/textures/item/plant/chili
 - src/main/resources/assets/spacestation/textures/block/plant/chili
 
 `CC-BY-SA-3.0` Taken from https://github.com/vgstation-coders/vgstation13/commit/b459ea3fdee965bdc3e93e7983ad7fa610d05c12, inhands by mubururu_ (github), Growth stages, harvest, dead, and produce sprites created by Chaoticaa (GitHub), inhands modified by Prole0 (GitHub)
-- src/main/resources/assets/spacestation/textures/item/plant/chilli
 - src/main/resources/assets/spacestation/textures/block/plant/chilli
 
 `CC-BY-SA-3.0` Taken from tgstation at https://github.com/tgstation/tgstation/commit/e245d374b2976c73d0aff37cf4a443d2e75c2f57, inhands by mubururu_ (github)
@@ -78,7 +76,6 @@ Licenses of borrowed assets are down below
 - src/main/resources/assets/spacestation/textures/block/plant/deathbloom
 
 `CC-BY-SA-3.0` Taken from https://github.com/vgstation-coders/vgstation13/commit/1dbcf389b0ec6b2c51b002df5fef8dd1519f8068, inhands by mubururu_ (github), produce modified from https://github.com/space-wizards/space-station-14/commit/484eb0bba44d3e014873e7d7026a99d7ba56f7b9#diff-5b9a7a38ef618b5f482f5baf4bb8db27dc87f9af7602d67cae9133e624aa3f91 by Chaoticaa (GitHub), Growth, harvest, and dead created by Chaoticaa (GitHub), inhands modified by Prole0 (GitHub)
-- src/main/resources/assets/spacestation/textures/item/plant/eggplang
 - src/main/resources/assets/spacestation/textures/block/plant/eggplang
 
 `CC-BY-SA-3.0` Taken from https://github.com/tgstation/tgstation/commit/9f2e55e83cb93e7124d06c705d1942dfec63c93a, produce created by Chaoticaa (GitHub)
@@ -93,12 +90,7 @@ Licenses of borrowed assets are down below
 - src/main/resources/assets/spacestation/textures/item/plant/laughin_pea
 - src/main/resources/assets/spacestation/textures/block/plant/laughin_pea
 
-`CC-BY-SA-3.0` Taken from https://github.com/vgstation-coders/vgstation13/commit/1dbcf389b0ec6b2c51b002df5fef8dd1519f8068 and https://github.com/tgstation/tgstation/commit/ead6d8d59753ef033efdfad17f337df268038ff3 and modified by slarticodefast, inhands by mubururu_ (github), Growth stages, harvest, dead, and produce sprites created by Chaoticaa (GitHub), inhands modified by Prole0 (GitHub)
-- src/main/resources/assets/spacestation/textures/item/plant/meatwheat
-- src/main/resources/assets/spacestation/textures/block/plant/meatwheat
-
 `CC-BY-SA-3.0` Taken from tgstation at https://github.com/tgstation/tgstation/commit/40d89d11ea4a5cb81d61dc1018b46f4e7d32c62a
-- src/main/resources/assets/spacestation/textures/item/plant/nettle
 - src/main/resources/assets/spacestation/textures/block/plant/nettle
 
 `CC-BY-SA-3.0` Taken from vgstation and modified by Swept at https://github.com/vgstation-coders/vgstation13/commit/1dbcf389b0ec6b2c51b002df5fef8dd1519f8068, Growth stages, harvest, dead, and produce created by Chaoticaa (GitHub), inhands modified by Prole0 (GitHub)
