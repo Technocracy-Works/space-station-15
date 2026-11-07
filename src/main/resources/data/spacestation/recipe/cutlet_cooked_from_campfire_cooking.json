@@ -4,7 +4,7 @@
   "cookingtime": 600,
   "experience": 0.35,
   "ingredient": {
-    "item": "spacestation:cutlet_raw"
+    "item": "spacestation:cutlet"
   },
   "result": {
     "id": "spacestation:cutlet_cooked"

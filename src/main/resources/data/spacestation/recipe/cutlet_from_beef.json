@@ -5,7 +5,7 @@
     { "tag": "spacestation:knives" }
   ],
   "result": {
-    "id": "spacestation:cutlet_raw",
+    "id": "spacestation:cutlet",
     "count": 3
   }
 }

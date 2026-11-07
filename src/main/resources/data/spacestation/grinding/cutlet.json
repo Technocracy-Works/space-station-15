@@ -1,4 +1,4 @@
 {
-  "ingredient": "spacestation:cutlet_raw",
+  "ingredient": "spacestation:cutlet",
   "results": { "water": 5.0, "protein": 10.0, "carbon": 2.5 }
 }

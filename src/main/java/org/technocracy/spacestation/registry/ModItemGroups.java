@@ -82,7 +82,7 @@ public final class ModItemGroups {
                         entries.add(FoodItems.CROISSANT);
                         entries.add(FoodItems.CROISSANT_RAW);
                         entries.add(FoodItems.CUTLET_COOKED);
-                        entries.add(FoodItems.CUTLET_RAW);
+                        entries.add(FoodItems.CUTLET);
                         entries.add(FoodItems.DOUGH);
                         entries.add(FoodItems.DOUGH_CORN);
                         entries.add(FoodItems.DOUGH_FLAT);

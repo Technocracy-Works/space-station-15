@@ -131,8 +131,8 @@ public final class FoodItems {
                     .build()))
     );
 
-    public static final Item CUTLET_RAW = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "cutlet_raw"),
+    public static final Item CUTLET = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "cutlet"),
             new Item(new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(2).saturationModifier(0.2f)
                     .statusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 100, 0), 0.25f)
