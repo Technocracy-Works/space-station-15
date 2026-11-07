@@ -192,6 +192,7 @@ public final class ModItemGroups {
                         entries.add(PlantItems.TOMATO);
                         entries.add(PlantItems.TOMATO_SEEDS);
                         entries.add(PlantItems.TOWERCAP_SEEDS);
+                        entries.add(TreeItems.ORANGE);
                         entries.add(TreeItems.ORANGE_TREE_LOG);
                         entries.add(TreeItems.ORANGE_TREE_WOOD);
                         entries.add(TreeItems.ORANGE_TREE_LOG_STRIPPED);

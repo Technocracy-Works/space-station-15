@@ -1,6 +1,7 @@
 package org.technocracy.spacestation.registry.items;
 
 import net.minecraft.block.*;
+import net.minecraft.component.type.FoodComponent;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -34,6 +35,12 @@ public class TreeItems {
     public static final Item ORANGE_TREE_SAPLING = Registry.register(
             Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "orange_tree_sapling"),
             new BlockItem(TreeBlocks.ORANGE_TREE_SAPLING, new Item.Settings()));
+
+    public static final Item ORANGE = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "orange"),
+            new Item(new Item.Settings().food(new FoodComponent.Builder()
+                    .nutrition(2).saturationModifier(1.8f).build()))
+    );
 
     private TreeItems() {}
 
