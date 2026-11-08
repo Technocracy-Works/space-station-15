@@ -5,7 +5,7 @@
     { "item": "spacestation:plastic_knife" }
   ],
   "result": {
-    "id": "spacestation:cutlet_raw",
+    "id": "spacestation:cutlet",
     "count": 3
   }
 }

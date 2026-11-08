@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     { "item": "spacestation:dough_flat" },
-    { "item": "spacestation:cutlet_raw" },
-    { "item": "spacestation:cutlet_raw" },
+    { "item": "spacestation:cutlet" },
+    { "item": "spacestation:cutlet" },
     { "item": "spacestation:pineapple" },
     { "item": "spacestation:pineapple" },
     { "item": "spacestation:pineapple" },

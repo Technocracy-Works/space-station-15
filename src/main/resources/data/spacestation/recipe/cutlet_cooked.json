@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "spacestation:cutlet_raw"
+    "item": "spacestation:cutlet"
   },
   "result": {
     "id": "spacestation:cutlet_cooked"
