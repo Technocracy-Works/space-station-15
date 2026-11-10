@@ -12,6 +12,7 @@ This documentation explains how the current codebase is organized and how to ext
 - [Chemistry](chemistry.md): Chem Master, chemical containers, reactions, grinding recipes, and data formats.
 - [Networking](networking.md): custom payloads, server/client packet flow, and where networking is used.
 - [Saving](saving.md): item data components, block entity NBT, and resource-driven data.
+- [Radiation](radiation.md): player radiation storage, sources, modifiers, and configuration.
 - [Events And Timers](events.md): Fabric events, action timers, HUD progress, and loot table modification.
 - [Resources](resources.md): assets, data packs, lang files, recipes, worldgen JSON, and naming conventions.
 - [World Generation](worldgen.md): ore feature registration and JSON structure.

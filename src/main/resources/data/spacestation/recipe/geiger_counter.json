@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IPI",
+    "PCP",
+    " F "
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "P": { "item": "spacestation:plastic" },
+    "C": { "item": "spacestation:circuit_base" },
+    "F": { "item": "spacestation:flint_purified" }
+  },
+  "result": {
+    "id": "spacestation:geiger_counter",
+    "count": 1
+  }
+}
