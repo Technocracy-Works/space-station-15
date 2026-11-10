@@ -17,7 +17,6 @@ import java.util.List;
 
 @Mixin(ServerPlayerEntity.class)
 public class ServerPlayerEntityMixin {
-
     @Inject(method = "dropSelectedItem", at = @At("HEAD"), cancellable = true)
     private void onDropItem(boolean dropAll, CallbackInfoReturnable<Boolean> cir) {
         ServerPlayerEntity player = (ServerPlayerEntity) (Object) this;

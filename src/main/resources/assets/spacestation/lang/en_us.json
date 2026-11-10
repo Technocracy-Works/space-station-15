@@ -372,6 +372,10 @@
   "quality.spacestation.prying": "Prying",
   "quality.spacestation.anchoring": "Anchoring",
   "death.attack.radiation": "%1$s died of radiation.",
+  "item.spacestation.geiger_counter": "Geiger counter",
+  "item.spacestation.geiger_counter.reading": "%1$s is contaminated with %2$s rad of radiation.",
+  "item.spacestation.geiger_counter.target_reading": "%1$s is contaminated with %2$s rad of radiation.",
+  "death.attack.spacestation.radiation": "%1$s died of radiation.",
   "effect.spacestation.radiation": "Radiation",
   "effect.spacestation.stimulator": "Stimulator"
 }

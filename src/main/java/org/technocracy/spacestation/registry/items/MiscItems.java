@@ -5,16 +5,23 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import org.technocracy.spacestation.SpaceStation;
+import org.technocracy.spacestation.item.GeigerCounterItem;
+import org.technocracy.spacestation.registry.ModComponents;
 
 public final class MiscItems {
 
     public static final Item ASSEMBLY_KIT_CM = Registry.register(
             Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "assembly_kit_cm"),
             new Item(new Item.Settings().maxCount(1)));
+
     public static final Item ASSEMBLY_KIT_SUBLIMATOR = Registry.register(
             Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "assembly_kit_sublimator"),
             new Item(new Item.Settings().maxCount(1)));
-    public static final Item BANANIUM           = register("bananium");
+
+    public static final Item BANANIUM = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "bananium"),
+            new Item(new Item.Settings().component(ModComponents.RADIOACTIVITY, 10.0)));
+
     public static final Item BANANIUM_ORE           = register("bananium_ore");
     public static final Item CABLE_LV = register("cable_lv");
     public static final Item CABLE_HV = register("cable_hv");
@@ -27,8 +34,18 @@ public final class MiscItems {
     public static final Item TRASH_PLASTIC          = register("trash_plastic");
     public static final Item STEEL_ORE              = register("steel_ore");
     public static final Item FLINT_PURIFIED = register("flint_purified");
-    public static final Item URANIUM                = register("uranium");
-    public static final Item URANIUM_ORE            = register("uranium_ore");
+    public static final Item GEIGER_COUNTER = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "geiger_counter"),
+            new GeigerCounterItem(new Item.Settings().maxCount(1)));
+
+    public static final Item URANIUM = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "uranium"),
+            new Item(new Item.Settings().component(ModComponents.RADIOACTIVITY, 10.0)));
+
+    public static final Item URANIUM_ORE = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "uranium_ore"),
+            new Item(new Item.Settings().component(ModComponents.RADIOACTIVITY, 15.0)));
+
     public static final Item STEEL                  = register("steel");
     public static final Item SOLID_FUEL             = register("solid_fuel");
     public static final Item PLASTEEL               = register("plasteel");

@@ -275,6 +275,7 @@ public final class ModItemGroups {
                         entries.add(MiscItems.CLOTH);
                         entries.add(MiscItems.ID_CARD);
                         entries.add(MiscItems.FLINT_PURIFIED);
+                        entries.add(MiscItems.GEIGER_COUNTER);
                         entries.add(MiscItems.PLASMA);
                         entries.add(MiscItems.PLASMA_ORE);
                         entries.add(MiscItems.PLASTEEL);

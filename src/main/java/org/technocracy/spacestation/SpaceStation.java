@@ -2,6 +2,7 @@ package org.technocracy.spacestation;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
+import net.fabricmc.fabric.api.entity.event.v1.ServerPlayerEvents;
 import net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
@@ -13,6 +14,7 @@ import org.technocracy.spacestation.network.ModPackets;
 import org.technocracy.spacestation.registry.*;
 import org.technocracy.spacestation.registry.items.*;
 import org.technocracy.spacestation.system.ActionTimer;
+import org.technocracy.spacestation.system.radiation.RadiationManager;
 import org.technocracy.spacestation.world.ModLootModifiers;
 import org.technocracy.spacestation.world.ModWorldGeneration;
 
@@ -27,7 +29,10 @@ public class SpaceStation implements ModInitializer {
     public void onInitialize() {
         ServerTickEvents.END_SERVER_TICK.register(server -> {
             server.getPlayerManager().getPlayerList()
-                    .forEach(ActionTimer::tick);
+                    .forEach(player -> {
+                        ActionTimer.tick(player);
+                        RadiationManager.tick(player);
+                    });
         });
 
         ModComponents.register();
@@ -43,6 +48,14 @@ public class SpaceStation implements ModInitializer {
         ModPackets.register();
         MutationRegistry.register();
         ModEffects.register();
+        RadiationManager.initialize();
+        ServerPlayerEvents.COPY_FROM.register((oldPlayer, newPlayer, alive) -> {
+            if (alive) {
+                RadiationManager.copyRadiation(oldPlayer, newPlayer);
+            } else {
+                RadiationManager.clearRadiation(newPlayer);
+            }
+        });
         PayloadTypeRegistry.playC2S().register(ModPackets.ChemMovePayload.ID, ModPackets.ChemMovePayload.CODEC);
 
         FuelRegistry.INSTANCE.add(MiscItems.SOLID_FUEL, 500); // Регистрация кастомного топлива
