@@ -3,12 +3,20 @@ package org.technocracy.spacestation.client;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.color.block.BlockColors;
 import net.minecraft.client.color.world.BiomeColors;
 import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.item.ModelPredicateProviderRegistry;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.BlockRenderView;
+import net.minecraft.world.biome.FoliageColors;
 import org.technocracy.spacestation.SpaceStation;
 import org.technocracy.spacestation.client.chemistry.chemmaster.ChemMasterScreen;
 import org.technocracy.spacestation.client.chemistry.sublimator.SublimatorScreen;
@@ -28,7 +36,6 @@ import static org.technocracy.spacestation.registry.ModComponents.ITEM_TOGGLE_CO
 public class SpaceStationClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-
         ModScreenHandlers.register();
         HandledScreens.register(ModScreenHandlers.CHEM_MASTER, ChemMasterScreen::new);
         HandledScreens.register(ModScreenHandlers.SUBLIMATOR, SublimatorScreen::new);
@@ -84,6 +91,28 @@ public class SpaceStationClient implements ClientModInitializer {
         // ================ TREES ================
         BlockRenderLayerMap.INSTANCE.putBlock(NatureBlocks.ORANGE_TREE_LEAVES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(NatureBlocks.ORANGE_TREE_SAPLING, RenderLayer.getCutout());
+
+        ColorProviderRegistry.BLOCK.register(
+                (state, world, pos, tintIndex) -> {
+                    if (world == null || pos == null) {
+                        return FoliageColors.getDefaultColor();
+                    }
+
+                    return BiomeColors.getFoliageColor(world, pos);
+                },
+                NatureBlocks.ORANGE_TREE_LEAVES
+        );
+
+        ColorProviderRegistry.ITEM.register(
+                (stack, tintIndex) -> {
+                    if (tintIndex != 0) {
+                        return -1;
+                    }
+
+                    return FoliageColors.getDefaultColor();
+                },
+                NatureBlocks.ORANGE_TREE_LEAVES
+        );
 
         TimerHud.register();
         registerToggleableItem(ToolItems.WELDER);
