@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "end": "spacestation:block/tree/orange/wood_stripped_top",
-    "side": "spacestation:block/tree/orange/wood_stripped"
+    "end": "spacestation:block/tree/orange/log_stripped",
+    "side": "spacestation:block/tree/orange/log_stripped"
   }
 }
