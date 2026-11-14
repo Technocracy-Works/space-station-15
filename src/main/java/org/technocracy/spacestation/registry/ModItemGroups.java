@@ -297,6 +297,7 @@ public final class ModItemGroups {
                         entries.add(MiscItems.URANIUM_ORE);
                         entries.add(MiscItems.ORANGE_TREE_PLANKS);
                         entries.add(MiscItems.ORANGE_TREE_STAIRS);
+                        entries.add(MiscItems.ORANGE_TREE_SLAB);
                     })
                     .build()
     );

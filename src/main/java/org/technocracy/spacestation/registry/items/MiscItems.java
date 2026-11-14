@@ -53,6 +53,10 @@ public final class MiscItems {
             Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "orange_tree_stairs"),
             new BlockItem(MiscBlocks.ORANGE_TREE_STAIRS, new Item.Settings()));
 
+    public static final Item ORANGE_TREE_SLAB = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "orange_tree_slab"),
+            new BlockItem(MiscBlocks.ORANGE_TREE_SLAB, new Item.Settings()));
+
     private static Item register(String name) {
         return Registry.register(
                 Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, name),

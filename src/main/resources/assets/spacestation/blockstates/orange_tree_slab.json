@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "spacestation:block/tree/orange/slab"
+    },
+    "type=double": {
+      "model": "spacestation:block/tree/orange/planks"
+    },
+    "type=top": {
+      "model": "spacestation:block/tree/orange/slab_top"
+    }
+  }
+}
