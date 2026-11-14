@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     { "item": "spacestation:bowl_big" },
-    { "item": "spacestation:blood_tomato" },
-    { "item": "spacestation:blood_tomato" }
+    { "item": "spacestation:tomato_blood" },
+    { "item": "spacestation:tomato_blood" }
   ],
   "result": {
     "id": "spacestation:soup_tomato_blood",

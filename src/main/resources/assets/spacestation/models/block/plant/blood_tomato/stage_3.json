@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/crop",
-  "textures": {
-    "crop": "spacestation:block/plant/blood_tomato/stage_3"
-  }
-}

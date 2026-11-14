@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "spacestation:item/plant/blood_tomato/produce"
+    "layer0": "spacestation:item/plant/tomato_blood/seeds"
   }
 }

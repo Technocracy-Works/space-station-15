@@ -1,5 +1,5 @@
 {
-  "target": "spacestation:blue_tomato_crop",
+  "target": "spacestation:tomato_blood_crop",
   "mutations": [
     {
       "type": "nothing",
