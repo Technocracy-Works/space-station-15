@@ -13,6 +13,16 @@ import org.technocracy.spacestation.SpaceStation;
 public final class FoodItems {
 
     //
+    // =============== PLANT'S PRODUCE ===============
+    //
+
+    public static final Item ORANGE = Registry.register(
+            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "orange"),
+            new Item(new Item.Settings().food(new FoodComponent.Builder()
+                    .nutrition(2).saturationModifier(1.8f).build()))
+    );
+
+    //
     // =============== INGREDIENTS ===============
     //
 

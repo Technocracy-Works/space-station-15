@@ -24,9 +24,6 @@ public class NatureItems {
             Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "orange_tree_wood_stripped"),
             new BlockItem(NatureBlocks.ORANGE_TREE_WOOD_STRIPPED, new Item.Settings()));
 
-    public static final Item ORANGE_TREE_PLANKS = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "orange_tree_planks"),
-            new BlockItem(NatureBlocks.ORANGE_TREE_PLANKS, new Item.Settings()));
     public static final Item ORANGE_TREE_LEAVES = Registry.register(
             Registries.ITEM,Identifier.of(SpaceStation.MOD_ID, "orange_tree_leaves"),
             new BlockItem(NatureBlocks.ORANGE_TREE_LEAVES, new Item.Settings()));
@@ -34,13 +31,7 @@ public class NatureItems {
     public static final Item ORANGE_TREE_SAPLING = Registry.register(
             Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "orange_tree_sapling"),
             new BlockItem(NatureBlocks.ORANGE_TREE_SAPLING, new Item.Settings()));
-
-    public static final Item ORANGE = Registry.register(
-            Registries.ITEM, Identifier.of(SpaceStation.MOD_ID, "orange"),
-            new Item(new Item.Settings().food(new FoodComponent.Builder()
-                    .nutrition(2).saturationModifier(1.8f).build()))
-    );
-
+    
     private NatureItems() {}
 
     public static void register() {}

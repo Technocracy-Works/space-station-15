@@ -191,12 +191,11 @@ public final class ModItemGroups {
                         entries.add(PlantItems.TOMATO_BLUE);
                         entries.add(PlantItems.TOMATO_BLUE_SEEDS);
                         entries.add(PlantItems.TOWERCAP_SEEDS);
-                        entries.add(NatureItems.ORANGE);
+                        entries.add(FoodItems.ORANGE);
                         entries.add(NatureItems.ORANGE_TREE_LOG);
                         entries.add(NatureItems.ORANGE_TREE_WOOD);
                         entries.add(NatureItems.ORANGE_TREE_LOG_STRIPPED);
                         entries.add(NatureItems.ORANGE_TREE_WOOD_STRIPPED);
-                        entries.add(NatureItems.ORANGE_TREE_PLANKS);
                         entries.add(NatureItems.ORANGE_TREE_LEAVES);
                         entries.add(NatureItems.ORANGE_TREE_SAPLING);
                     })
@@ -296,6 +295,7 @@ public final class ModItemGroups {
                         entries.add(MiscItems.TRASH_PLASTIC);
                         entries.add(MiscItems.URANIUM);
                         entries.add(MiscItems.URANIUM_ORE);
+                        entries.add(MiscItems.ORANGE_TREE_PLANKS);
                     })
                     .build()
     );
