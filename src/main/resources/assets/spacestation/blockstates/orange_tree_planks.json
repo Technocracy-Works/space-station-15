@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "persistent=false": {
+      "model": "spacestation:block/tree/orange/planks"
+    },
+    "persistent=true": {
+      "model": "spacestation:block/tree/orange/planks"
+    }
+  }
+}

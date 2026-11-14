@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "stage=0": {
+      "model": "spacestation:block/tree/orange/sapling"
+    },
+    "stage=1": {
+      "model": "spacestation:block/tree/orange/sapling"
+    }
+  }
+}

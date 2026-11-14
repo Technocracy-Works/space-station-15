@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LL ",
+    "LL ",
+    "   "
+  ],
+  "key": {
+    "L": { "item": "spacestation:orange_tree_log" }
+  },
+  "result": {
+    "id": "spacestation:orange_tree_wood",
+    "count": 1
+  }
+}

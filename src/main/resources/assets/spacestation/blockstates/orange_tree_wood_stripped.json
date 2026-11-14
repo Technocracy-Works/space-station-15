@@ -1,0 +1,17 @@
+
+{
+  "variants": {
+    "axis=y": {
+      "model": "spacestation:block/tree/orange/wood_stripped"
+    },
+    "axis=z": {
+      "model": "spacestation:block/tree/orange/wood_stripped_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "spacestation:block/tree/orange/wood_stripped_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}
