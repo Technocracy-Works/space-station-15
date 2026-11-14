@@ -9,7 +9,6 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import org.technocracy.spacestation.SpaceStation;
 import org.technocracy.spacestation.chemistry.ChemData;
-import org.technocracy.spacestation.registry.ModComponents;
 import org.technocracy.spacestation.registry.items.*;
 
 import java.util.Map;
@@ -192,14 +191,14 @@ public final class ModItemGroups {
                         entries.add(PlantItems.TOMATO_BLUE);
                         entries.add(PlantItems.TOMATO_BLUE_SEEDS);
                         entries.add(PlantItems.TOWERCAP_SEEDS);
-                        entries.add(TreeItems.ORANGE);
-                        entries.add(TreeItems.ORANGE_TREE_LOG);
-                        entries.add(TreeItems.ORANGE_TREE_WOOD);
-                        entries.add(TreeItems.ORANGE_TREE_LOG_STRIPPED);
-                        entries.add(TreeItems.ORANGE_TREE_WOOD_STRIPPED);
-                        entries.add(TreeItems.ORANGE_TREE_PLANKS);
-                        entries.add(TreeItems.ORANGE_TREE_LEAVES);
-                        entries.add(TreeItems.ORANGE_TREE_SAPLING);
+                        entries.add(NatureItems.ORANGE);
+                        entries.add(NatureItems.ORANGE_TREE_LOG);
+                        entries.add(NatureItems.ORANGE_TREE_WOOD);
+                        entries.add(NatureItems.ORANGE_TREE_LOG_STRIPPED);
+                        entries.add(NatureItems.ORANGE_TREE_WOOD_STRIPPED);
+                        entries.add(NatureItems.ORANGE_TREE_PLANKS);
+                        entries.add(NatureItems.ORANGE_TREE_LEAVES);
+                        entries.add(NatureItems.ORANGE_TREE_SAPLING);
                     })
                     .build()
     );

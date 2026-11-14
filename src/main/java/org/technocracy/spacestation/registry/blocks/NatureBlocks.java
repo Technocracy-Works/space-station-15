@@ -9,7 +9,7 @@ import net.minecraft.util.Identifier;
 import org.technocracy.spacestation.SpaceStation;
 import org.technocracy.spacestation.world.tree.ModSaplingGenerator;
 
-public class TreeBlocks {
+public class NatureBlocks {
 
     // Orange tree
     public static final Block ORANGE_TREE_LOG = Registry.register(
@@ -36,18 +36,18 @@ public class TreeBlocks {
             Registries.BLOCK, Identifier.of(SpaceStation.MOD_ID, "orange_tree_sapling"),
             new SaplingBlock(ModSaplingGenerator.ORANGE_TREE, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING)));
 
-    private TreeBlocks() {}
+    private NatureBlocks() {}
 
     public static void register() {
         // Orange tree
-        StrippableBlockRegistry.register(TreeBlocks.ORANGE_TREE_LOG, TreeBlocks.ORANGE_TREE_LOG_STRIPPED);
-        StrippableBlockRegistry.register(TreeBlocks.ORANGE_TREE_WOOD, TreeBlocks.ORANGE_TREE_WOOD_STRIPPED);
+        StrippableBlockRegistry.register(NatureBlocks.ORANGE_TREE_LOG, NatureBlocks.ORANGE_TREE_LOG_STRIPPED);
+        StrippableBlockRegistry.register(NatureBlocks.ORANGE_TREE_WOOD, NatureBlocks.ORANGE_TREE_WOOD_STRIPPED);
 
-        FlammableBlockRegistry.getDefaultInstance().add(TreeBlocks.ORANGE_TREE_LOG, 5, 5);
-        FlammableBlockRegistry.getDefaultInstance().add(TreeBlocks.ORANGE_TREE_WOOD, 5, 5);
-        FlammableBlockRegistry.getDefaultInstance().add(TreeBlocks.ORANGE_TREE_LOG_STRIPPED, 5, 5);
-        FlammableBlockRegistry.getDefaultInstance().add(TreeBlocks.ORANGE_TREE_WOOD_STRIPPED, 5, 5);
-        FlammableBlockRegistry.getDefaultInstance().add(TreeBlocks.ORANGE_TREE_PLANKS, 5, 20);
-        FlammableBlockRegistry.getDefaultInstance().add(TreeBlocks.ORANGE_TREE_LEAVES, 30, 60);
+        FlammableBlockRegistry.getDefaultInstance().add(NatureBlocks.ORANGE_TREE_LOG, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(NatureBlocks.ORANGE_TREE_WOOD, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(NatureBlocks.ORANGE_TREE_LOG_STRIPPED, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(NatureBlocks.ORANGE_TREE_WOOD_STRIPPED, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(NatureBlocks.ORANGE_TREE_PLANKS, 5, 20);
+        FlammableBlockRegistry.getDefaultInstance().add(NatureBlocks.ORANGE_TREE_LEAVES, 30, 60);
     }
 }

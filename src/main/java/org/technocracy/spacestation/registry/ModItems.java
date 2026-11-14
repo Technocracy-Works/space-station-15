@@ -1,7 +1,5 @@
 package org.technocracy.spacestation.registry;
 
-import net.minecraft.item.Item;
-import org.technocracy.spacestation.registry.blocks.TreeBlocks;
 import org.technocracy.spacestation.registry.items.*;
 
 public final class ModItems {
@@ -15,7 +13,7 @@ public final class ModItems {
         MiscItems.register();
         PlantItems.register();
         ArmorItems.register();
-        TreeItems.register();
+        NatureItems.register();
     }
 
     private ModItems() {}
