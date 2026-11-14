@@ -3,6 +3,7 @@ package org.technocracy.spacestation.client;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
+import net.minecraft.client.color.world.BiomeColors;
 import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.item.ModelPredicateProviderRegistry;
 import net.minecraft.client.render.RenderLayer;
@@ -82,6 +83,7 @@ public class SpaceStationClient implements ClientModInitializer {
 
         // ================ TREES ================
         BlockRenderLayerMap.INSTANCE.putBlock(NatureBlocks.ORANGE_TREE_LEAVES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(NatureBlocks.ORANGE_TREE_SAPLING, RenderLayer.getCutout());
 
         TimerHud.register();
         registerToggleableItem(ToolItems.WELDER);
