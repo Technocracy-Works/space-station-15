@@ -12,6 +12,10 @@ public class MiscBlocks {
             Registries.BLOCK, Identifier.of(SpaceStation.MOD_ID, "orange_tree_planks"),
             new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
 
+    public static final Block ORANGE_TREE_STAIRS = Registry.register(
+            Registries.BLOCK, Identifier.of(SpaceStation.MOD_ID, "orange_tree_stairs"),
+            new StairsBlock(ORANGE_TREE_PLANKS.getDefaultState(), AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+
     private MiscBlocks() {}
 
     public static void register() {
